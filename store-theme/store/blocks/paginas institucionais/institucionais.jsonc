@@ -1,7 +1,7 @@
 {
   /* Politica de Entrega*/
 
-  "flex.layout-row#container-politica-de-entrega":{
+  "flex-layout.row#container-politica-de-entrega":{
     "children":[
       "flex-layout.row#searchbread"
     ],
@@ -19,7 +19,7 @@
   },
 
 
-  "flex.layout-row#container-politica-de-privacidade":{
+  "flex-layout.row#container-politica-de-privacidade":{
     "children":[
       "flex-layout.row#searchbread"
     ],
