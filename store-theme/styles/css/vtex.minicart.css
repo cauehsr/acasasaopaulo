@@ -1,0 +1,72 @@
+.overlay--visible {
+    background-color: #e5e5e5 !important;
+}
+
+:global(.vtex-minicart-2-x-drawerContent ){
+    background: #fff;
+}
+
+:global(.vtex-minicart-2-x-closeIconContainer ){
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 4em;
+    border-bottom: 1px solid #91919138;
+}
+
+:global(.vtex-minicart-2-x-closeIconContainer)::after {
+    content: 'Meu Carrinho';
+    display: inline-flex;
+    font-size: 20px;
+    line-height: 110%;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    color: #3a3a3a;
+    
+}
+
+:global(.vtex-minicart-2-x-minicartTitle){
+    display: none;
+}
+
+:global(.vtex-minicart-2-x-closeIcon ){
+    display: none;
+}
+
+:global(.vtex-minicart-2-x-closeIconButton)::after{
+    content: '';
+    background: url(assets/icons/icon-close.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+:global(.vtex-product-list-0-x-productName ){
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer ){
+    padding-bottom: 3em;
+}
+
+
+:global(.vtex-minicart-2-x-minicartCheckoutButton )
+:global(.vtex-button__label ){
+    display: none;
+}
+
+:global(.vtex-minicart-2-x-minicartSummary ){
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #3a3a3a;
+}

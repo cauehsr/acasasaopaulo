@@ -1,0 +1,66 @@
+{
+
+  "flex-layout.row#container-copyright":{
+    "title": "Container - copyright",
+    "children":[
+      "flex-layout.row#text-copyright",
+      "flex-layout.row#copyright-logo"
+    ],
+      "props":{
+      "blockClass": "container-copyright" 
+    }
+  },
+
+  "flex-layout.row#text-copyright":{
+    "title": "Container - text copyright",
+    "children":[
+      "rich-text#copyright"
+    ],
+      "props":{
+      "blockClass": "container-text-copyright" 
+    }
+  },
+
+  "rich-text#copyright":{
+    "props": {
+        "title":"Title - copyright",
+        "text":"® 2022 A Casa São Paulo. Todos os direitos reservados.",
+        "blockClass": "text-copyright"
+    }
+  },
+
+  "flex-layout.row#copyright-logo":{
+    "title": "Container - copyright",
+    "children":[
+      "image#logo-wicomm",
+      "image#logo-vtex"
+    ],
+      "props":{
+      "blockClass": "container-logo-copyright" 
+    }
+  },
+
+  "image#logo-wicomm":{
+    "props": {
+      "width":"96px",
+      "height":"43px",
+      "title":"Title - logo wicomm",
+      "src": "assets/images/logo-wicomm.png",
+      "blockClass": "logo-wicomm-footer"
+    }
+  },
+
+  "image#logo-vtex":{
+    "props": {
+      "width":"88px",
+      "height":"52px",
+      "title":"Title - logo vtex",
+      "src": "assets/images/logo-vtex.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-vtex-footer"
+    }
+  }
+
+}

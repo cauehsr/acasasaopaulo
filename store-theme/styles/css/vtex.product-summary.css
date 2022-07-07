@@ -1,0 +1,28 @@
+/*Home*/
+.container--summary-shelf :global(.vtex-product-highlights-2-x-productHighlightText) {
+    display: none;
+}
+
+.container--summary-shelf :global(.vtex-product-summary-2-x-productBrand) {
+    color: #3f4040;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container--summary-shelf :global(.vtex-flex-layout-0-x-flexCol--productRating) {
+    display: none !important;
+}
+
+.container--summary-shelf :global(.vtex-flex-layout-0-x-flexRow) {
+    align-self: center !important;
+    margin-top: 16px;
+}
+
+
+.container--summary-shelf :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#shelf-destaque": {
+        "children": [
+            "flex-layout.row#destaque"
+        ],
+        "props": {
+            "blockClass": "container--shelf"
+        }
+    },
+
+    "flex-layout.row#destaque": {
+        "children": [
+          "list-context.product-list#highlight-shelf-destaque"
+        ],
+        "props": {
+            "blockClass": "shelf"
+        }
+    },
+
+    "list-context.product-list#highlight-shelf-destaque": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#highlight-shelf-destaque"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+
+    "slider-layout#highlight-shelf-destaque": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": "shelf",
+            "showPaginationDots": "always"
+        }
+    }
+}

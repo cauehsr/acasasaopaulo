@@ -1,0 +1,23 @@
+{
+  "name": "lojasmm-io",
+  "version": "1.0.0",
+  "description": "react app",
+  "main": "HelloWorld.js",
+  "dependencies": {
+    "@vtex/pickup-points-modal": "^1.1.15",
+    "axios": "^0.21.1",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.6.0",
+    "react-collapsible": "^2.8.3",
+    "react-google-maps": "^9.4.5",
+    "react-slick": "^0.28.1"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  },
+  "scripts": {
+    "sass": "sass --watch --no-source-map styles/scss:styles/css --style compressed"
+  },
+  "author": "igor.silva@corebiz.com.br",
+  "license": "ISC"
+}

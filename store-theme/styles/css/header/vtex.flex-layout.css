@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+:global(.vtex-sticky-layout-0-x-wrapper),
+:global(.vtex-sticky-layout-0-x-container){
+  background: #F2F2F2;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-topBar){
+  width: 100% !important;
+  background:#F2F2F2;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-topBar){
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-navMenu ){
+  width: 100%;
+  padding: 10px 0;
+  background: #ffff;
+}
+
+:global(.vtex-store-components-3-x-container){
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important ;
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-topBar)
+:global(.vtex-rich-text-0-x-container){
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-topBar)
+:global(.vtex-rich-text-0-x-paragraph){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #3A3A3A;
+  margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-topBar)
+:global(.vtex-rich-text-0-x-paragraph)
+:global(.vtex-bold){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1F6591;
+}
+
+:global(.vtex-rich-text-0-x-container--topBar-text-desconto),
+:global(.vtex-rich-text-0-x-container--topBar-text-juros ){
+  border-right: 1px solid #919191;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-juros)::before {
+  content:'';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url('assets/images/icon-juros.svg') no-repeat;
+  position: relative;
+  right: 10px;
+  top: 5px;
+  background-size: 100%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-desconto)::before{
+  content:'';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url('assets/images/icon-desconto.svg') no-repeat;
+  position: relative;
+  right: 10px;
+  top: 5px;
+  background-size: 100%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-maiorLoja)::before{
+  content:'';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url('assets/images/icon-maiorloja.svg') no-repeat;
+  position: relative;
+  right: 10px;
+  top: 2px;
+  background-size: 100%;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--box-content-right ){
+  display: flex;
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-navMenu ){
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--box-content-right ){
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* organização nav menu */
+
+:global(.vtex-input-prefix__group ){
+  background: #F2F2F2 !important;
+  border-radius: 20px;
+  border: none;
+}
+
+:global(.vtex-input__suffix){
+  background: #F2F2F2;
+}
+
+:global(.vtex-styleguide-9-x-input) {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 110%;
+  background: #F2F2F2;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-navMenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  width: 25% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-navMenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2n){
+  width: 40% !important;
+}
+
+:global(.vtex-store-components-3-x-searchIcon ){
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-searchBarIcon--search )::before{
+  content: '';
+  width: 40px;
+  height: 36px;
+  display: block;
+  position:relative;
+  top: 5px;
+  left: 10px;
+  background: url("assets/icons/icon-search.png") no-repeat;
+  background-size: 70%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-navMenu)
+:global(.vtex-rich-text-0-x-paragraph){
+  margin: 0;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--text-televendas)::before{
+  content: '';
+  width: 40px;
+  height: 40px;
+  display: flex;
+  background: url("assets/icons/icon-televendas.png") no-repeat;
+  background-size: 100% ;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--text-televendas ){
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--text-televendas )
+:global(.vtex-bold ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #00A0C6;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-televendas ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+:global(.vtex-login-2-x-container)
+:global(.vtex-button__label)::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url("assets/icons/icon-login.png") no-repeat;
+  background-size: 100% ;
+}
+
+:global(.vtex-login-2-x-label ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #3a3a3a;
+}
+
+:global(.vtex-login-2-x-label)::after{
+  display:flex ;
+  content: "Entrar";
+  color: #00A0C6;
+  font-weight: 700;
+  background: url("assets/images/chevron-down.png") no-repeat;
+  background-position: right;
+  width: 55px;
+}
+
+:global(.vtex-minicart-2-x-minicartIconContainer)::after{
+  content: '';
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url("assets/icons/icon-minicart.png") no-repeat;
+  background-size: 100% ;
+  position: relative;
+  left: 5px;
+}
+
+:global(.vtex-store-icons-0-x-cartIcon){
+  display: none;
+}
+
+:global(.vtex-minicart-2-x-minicartQuantityBadgeDefault ){
+  background: #6fc6dc;
+}
+
+/* Amazing Menu */
+
+:global(.vtex-menu-2-x-menuContainerNav--amazing-menu-wrapper ){
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #0001;
+  border-bottom: 1px solid #0001;
+  background: #fff;
+}
+
+:global(.vtex-menu-2-x-menuContainer--amazing-menu-wrapper ){
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--amazing-menu-department){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 110%;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--amazing-menu-department ){
+  margin-left: 0 !important;
+  margin-right:  0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-marcas-menu ){
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-marcas-menu){
+  width: 100% !important;
+  display: flex;
+  gap: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-marcas-menu1 ),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-marcas-menu2 ),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-marcas-menu3 ){
+  display: flex;
+  gap: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-marcas-menu )
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-marcas-menu )
+:global(.vtex-store-components-3-x-imageElement):hover {
+  border: 2px solid #1F6591;
+  border-radius: 5px;
+}
+
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-1 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-2 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-03 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-4 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-5 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-6 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-07 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-08 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-09 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-10 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-11 ){
+  width: 1200px;
+  background: #F2F2F2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  top: -12px;
+  border-radius: 0 0 5px 5px;
+  min-height: 360px;
+}
+
+@media (max-width: 1280px)
+{
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-1 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-2 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-03 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-4 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-5 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-6 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-07 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-08 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-09 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-10 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-11 ){
+    width: 100%;
+  }
+
+}  
+
+
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-1--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-2--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-03--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-4--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-5--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-6--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-07--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-08--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-09--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-10--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-11--isOpen ){
+  background: transparent;
+  border: none !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-shelf-oneitem ){
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Vitrine Destaque Amazing Menu */ 
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-product-summary-2-x-element--summary-shelf ){
+  display: grid;
+  grid-template-areas:
+      "a a";
+  padding: 10px;
+  height: 187px;
+  width: 260px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-product-summary-2-x-brandName ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 150%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-product-summary-2-x-nameContainer){
+  width: 170px;
+  height: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-product-summary-2-x-element--summary-shelf ){
+  display: grid;
+  grid-template-columns: 120px 120px;
+  grid-template-areas:
+      "a b"
+      "c d";
+  grid-template-rows: 80px 80px;
+  padding: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-product-summary-2-x-brandName ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 150%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-button ){
+  width: 115px !important;
+  height: 44px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-product-summary-2-x-containerNormal--summary-shelf){
+  width: 260px;
+  height: 187px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf ){
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-slider-layout-0-x-sliderRightArrow--shelf){
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-amazing-shelf ){
+  margin-left: 4em;
+  padding-left: 2em;
+  display: flex;
+  border-left: 1px solid #0001;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-rich-text-0-x-container--shelf-title ){
+  margin: 45px 0;
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
+:global(.vtex-rich-text-0-x-paragraph--shelf-title){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  color: #3a3a3a;
+}
+
+
+:global(.vtex-menu-2-x-styledLink--amazing-menu-title ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  color: #3a3a3a;
+}

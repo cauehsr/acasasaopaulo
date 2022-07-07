@@ -1,0 +1,42 @@
+{
+
+  "flex-layout.row#container-mais-vendidos":{
+      "title": "Vitrene Mais Vendidos",
+      "children":[
+        "flex-layout.row#container-title-maisvendidos",
+        "flex-layout.row#shelf-fouritens-mob",
+        "flex-layout.row#shelf-fouritens-mob"
+      ],
+        "props":{
+        "blockClass": "container-vitrine-maisvendidos" 
+      }
+  },
+
+  "flex-layout.row#container-title-maisvendidos":{
+    "title": "Title mais vendidos",
+    "children":[
+      "rich-text#title-maisvendido"
+    ],
+      "props":{
+      "blockClass": "container-title-maisvendidos" 
+    }
+  },
+
+  "rich-text#title-maisvendido": {
+      "props": {
+      "title":"Titulo - Vitrine mais vendidos",
+      "text":"Mais vendidos",
+      "blockClass": "text-maisvendidos"
+    }
+  },
+
+  "link#vertudo":{
+    "props": {
+      "title":"botao - ver tudo",
+      "href": "/",
+      "label": "Ver tudo",
+      "blockClass":"link-vertudo"
+    }
+  }
+
+}

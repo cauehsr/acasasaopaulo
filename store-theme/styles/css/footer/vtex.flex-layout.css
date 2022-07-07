@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+:global(.vtex-store-footer-2-x-footerLayout){
+  background: #fff;
+}
+
+/* Sobre a casa SP*/
+
+:global(.vtex-rich-text-0-x-container--text-title-casasp){
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--title-sobrecasasp ){
+  padding: 44px 0 55px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-title-casasp ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 110%;
+  margin-bottom: 24px;
+  color: #3a3a3a;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--content-sobre-casasp){
+  text-align: center;
+  padding: 0 22%;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #919191;
+}
+
+/* Assine Newsletter */
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-newsletter),
+:global(.vtex-flex-layout-0-x-flexRowContent--news-top){
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-newsletter)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
+:global(.vtex-rich-text-0-x-container--title-newsletter ),
+:global(.vtex-rich-text-0-x-container--msg-newsletter){
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-newsletter ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 110%;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-newsletter ){
+  background: #1F6591;
+}
+
+:global(.vtex-rich-text-0-x-container--title-newsletter ){
+  padding-top: 32px;
+  margin-bottom: 20px;
+}
+
+:global(.vtex-store-components-3-x-container--name-input), 
+:global(.vtex-store-components-3-x-container--email-input) {
+  padding-top: 40px;
+  padding-bottom: 0 !important;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--name-input )
+:global(.vtex-button ){
+  display: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--msg-newsletter ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--msg-newsletter )
+:global(.vtex-bold){
+  font-weight: 700;
+}
+
+:global(.vtex-store-components-3-x-buttonContainer--email-input) 
+:global(.vtex-button) {
+  background: #00A0C6;
+  border-color: #00A0C6;
+  width: 264px;
+  border-radius: 22px;
+}
+
+:global(.vtex-store-components-3-x-container--name-input ){
+  width: 49%;
+}
+
+:global(.vtex-store-components-3-x-newsletter--name-input ){
+  display: flex;
+  justify-content: flex-end;
+}
+
+:global(.vtex-store-components-3-x-buttonContainer--name-input ){
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--news-bottom ){
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--name-input ){
+  position: relative;
+  left: -8em;
+}
+
+:global(.vtex-store-components-3-x-container--email-input ){
+  position: relative;
+  left: -7em;
+}
+
+:global(.vtex-store-components-3-x-newsletter)
+:global(.vtex-store-components-3-x-newsletter--name-input){
+  margin-bottom: 80px;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--email-input ){
+  width: 36.89em;
+}
+
+:global(.vtex-store-components-3-x-newsletter--email-input ){
+  display: flex;
+}
+
+
+/* Container Link Rapido */
+:global(.vtex-flex-layout-0-x-flexRow--news-bottom ){
+  width: 100%;
+  max-width: 1200px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--news-bottom ){
+  padding-bottom: 32px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-col-formaspagamento),
+:global(.vtex-rich-text-0-x-paragraph--title-col-institucional ),
+:global(.vtex-rich-text-0-x-paragraph--title-seguranca){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #3a3a3a;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-columns-two )
+:global(.vtex-store-link-0-x-link){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-links-rapidos ){
+  background: #1f6591;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-links-rapidos ){
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 23px 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-links-rapidos )
+:global(.vtex-store-link-0-x-link){
+  display: flex;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+}
+
+:global(.vtex-store-link-0-x-link--link-televendas-newsletter)::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url("assets/icons/icon-televendas.svg") no-repeat;
+  position: relative;
+  right: 10px;
+}
+
+:global(.vtex-store-link-0-x-link--link-cotacoes-newsletter)::before{
+  content: '';
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url("assets/icons/icon-cotacoes.svg") no-repeat;
+  position: relative;
+  right: 10px;
+}
+
+:global(.vtex-store-link-0-x-link--link-emails-newsletter)::before{
+  content: '';
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url("assets/icons/icon-email.svg") no-repeat;
+  position: relative;
+  right: 10px;  
+}
+
+:global(.vtex-store-link-0-x-link--link-whatsapp-newsletter)::before{
+  content: '';
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url("assets/icons/icon-whats.svg") no-repeat;
+  position: relative;
+  right: 10px;
+}
+
+:global(.vtex-store-link-0-x-label--link-televendas-newsletter)::after{
+  display: flex;
+  content: "(11) 4000-2440";
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: lowercase !important;
+}
+
+:global(.vtex-store-link-0-x-label--link-cotacoes-newsletter)::after{
+  display: flex;
+  content: "loja@acasasaopaulo.com.br";
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: lowercase !important;
+}
+
+:global(.vtex-store-link-0-x-label--link-emails-newsletter)::after{
+  display: flex;
+  content: "loja@acasasaopaulo.com.br";
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: lowercase !important; 
+}
+
+:global(.vtex-store-link-0-x-label--link-whatsapp-newsletter)::after{
+  display: flex;
+  content: "(11) 9 5524-6849";
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: lowercase !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-principal-footer){
+  margin: 40px !important;
+}
+
+
+:global(.vtex-store-components-3-x-buttonContainer--email-input )
+:global(.vtex-button__label) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-buttonContainer--email-input )
+:global(.vtex-button)::after {
+  content: 'Cadastrar';
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-col-right ){
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Container principal footer */
+
+:global(.vtex-flex-layout-0-x-flexRow--container-endereco ){
+  padding-top: 8px;
+  border-top: 1px solid #0001;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-depto-vendas ){
+  margin-top: 12px;
+  border-top: 1px solid #0001;
+  padding-top: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-chamado-tecnico),
+:global(.vtex-rich-text-0-x-container--title-dp-vendas ),
+:global(.vtex-rich-text-0-x-container--text-horario-finaldesemana),
+:global(.vtex-rich-text-0-x-container--title-chamados-tecnicos){
+  margin-bottom: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-columns-one) 
+:global(.vtex-flex-layout-0-x-flexRowContent) {
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-dp-vendas),
+:global(.vtex-rich-text-0-x-paragraph--title-chamados-tecnicos),
+:global(.vtex-rich-text-0-x-paragraph--title-endereco){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  color:#1F6591;
+}
+
+:global(.vtex-rich-text-0-x-container--text-horario-seg-sex)::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url("assets/icons/icon-clock.svg") no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+
+:global(.vtex-rich-text-0-x-container--text-horario-finaldesemana)::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url("assets/icons/icon-clock.svg") no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-container--text-horario-24hrs)::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url("assets/icons/icon-clock.svg") no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-container--text-endereco)::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url("assets/icons/icon-local.svg") no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-container--text-horario-seg-sex),
+:global(.vtex-rich-text-0-x-container--text-horario-finaldesemana),
+:global(.vtex-rich-text-0-x-container--text-horario-24hrs ),
+:global(.vtex-rich-text-0-x-container--text-endereco ){
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-container--text-horario-seg-sex),
+:global(.vtex-rich-text-0-x-container--text-horario-finaldesemana),
+:global(.vtex-rich-text-0-x-container--text-horario-24hrs),
+:global(.vtex-rich-text-0-x-container--text-endereco ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3a3a3a;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-columns-one) 
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-banner-logos ){
+  display: flex;
+  flex-direction: row !important;
+  width: 80% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-principal-footer ){
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) 
+:global(.vtex-store-link-0-x-label ){
+  text-decoration: none !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-columns-three) 
+:global(.vtex-flex-layout-0-x-flexColChild ){
+  display: flex;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-columns-three )
+:global(.vtex-flex-layout-0-x-flexRowContent ){
+  flex-direction: column;
+  gap: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formas-pagamento)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+  width: 100% !important;
+  justify-content: flex-start !important;
+}
+
+:global(.vtex-store-components-3-x-imageElement--logo-formas-pagamento){
+  max-width: 168px;
+}
+
+/* Termos Buscados */
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-termos-buscados ){
+  display: flex;
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-termos-buscados)
+:global(.vtex-flex-layout-0-x-flexCol ){
+  display: flex;
+  gap: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-termos-buscados ){
+  padding: 40px 0;
+  border: 1px solid #0001;
+  border-left: 0;
+  border-right: 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-termos-mais-buscados ){
+  display: flex;
+  flex-wrap: wrap;
+  width: 20px;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #1F6591;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-termos-buscados )
+:global(.vtex-store-link-0-x-link ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+/* Copyright */
+
+:global(.vtex-flex-layout-0-x-flexRow--container-text-copyright),
+:global(.vtex-rich-text-0-x-container--text-copyright ){
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-logo-copyright)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  justify-content: flex-end;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-logo-copyright) 
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2n) {
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-copyright) 
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 80% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-copyright ){
+  width: 100% !important;
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-copyright ){
+  margin-top: 14px;
+}
+
+:global(.vtex-rich-text-0-x-container--content-sobre-casasp ){
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-columns-two ){
+  height: 85% !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-copyright ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #3a3a3a;
+}

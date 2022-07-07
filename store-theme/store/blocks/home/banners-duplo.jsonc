@@ -1,0 +1,54 @@
+{
+
+  "flex-layout.row#container-banners-duplo":{
+    "children":[
+      "flex-layout.col#container-banners-left",
+      "flex-layout.col#container-banners-right"
+    ],
+    "props":{
+    "title": "Banner Lojas Brasil",
+    "blockClass": "container-banners-duplo" 
+    }
+  },
+
+  "flex-layout.col#container-banners-left":{
+    "children":[
+        "image#banner-left"
+    ],
+    "props":{
+    "title": "Banner left",
+    "blockClass": "container-banners-left" 
+    }
+  },
+
+  "image#banner-left":{
+    "props": {
+      "src": "assets/images/banners-left.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "banner-left"
+    }
+  },
+
+  "flex-layout.col#container-banners-right":{
+    "title": "Banner right",
+    "children":[
+        "image#banner-right"
+    ],
+    "props":{
+    "blockClass": "container-banners-right" 
+    }
+  },
+
+  "image#banner-right":{
+      "props": {
+        "src": "assets/images/banners-right.png",
+        "link":{ 
+          "url":"/"
+        },
+        "blockClass": "banner-right"
+      }
+  }
+
+}

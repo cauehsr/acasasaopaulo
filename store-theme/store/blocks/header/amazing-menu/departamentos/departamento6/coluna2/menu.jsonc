@@ -1,0 +1,167 @@
+{
+  "experimental__visibility-layout#menu-dep6-col2": {
+    "title": "Coluna",
+    "props": {
+      "visible": true
+    },
+    "children": ["flex-layout.col#menu-dep6-col2"]
+  },
+
+  "flex-layout.col#menu-dep6-col2": {
+    "props": {
+      "blockClass": [
+        "amazing-menu-menu",
+        "amazing-menu-column",
+        "amazing-menu-column-first"
+      ]
+    },
+    "children": [
+
+      "menu-item#menu-dep6-col2",
+      "vtex.menu@2.x:menu#menu-dep6-col2"
+    ]
+  },
+
+  "menu-item#menu-dep6-col2": {
+    "props": {
+      "id": "title-menu-col",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["amazing-menu-title"],
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Produtos"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#menu-dep6-col2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "amazing-menu-menu",
+        "amazing-menu-column",
+        "amazing-menu-column-first"
+      ],
+      "title": {
+        "itemProps": {
+          "text": ""
+        },
+        "type": "custom"
+      },
+      "items": [
+        
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item1",
+            "text": "MotoBomba Centrifuga"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item2",
+            "text": "MotoBomba Centrifuga"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item3",
+            "text": "MotoBomba Centrifuga"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item4",
+            "text": "MotoBomba Centrifuga"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item5",
+            "text": "MotoBomba Centrifuga"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item6",
+            "text": "MotoBomba Centrifuga"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item7",
+            "text": "MotoBomba Centrifuga"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item8",
+            "text": "MotoBomba Centrifuga"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "prod-item9",
+            "text": "MotoBomba Centrifuga"
+          }
+        }
+
+      ]
+    }
+  }
+
+}

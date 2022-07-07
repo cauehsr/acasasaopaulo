@@ -1,0 +1,167 @@
+{
+  "experimental__visibility-layout#menu-dep4-col1": {
+    "title": "Coluna",
+    "props": {
+      "visible": true
+    },
+    "children": ["flex-layout.col#menu-dep4-col1"]
+  },
+
+  "flex-layout.col#menu-dep4-col1": {
+    "props": {
+      "blockClass": [
+        "amazing-menu-menu",
+        "amazing-menu-column",
+        "amazing-menu-column-first"
+      ]
+    },
+    "children": [
+
+      "menu-item#menu-dep4-col1",
+      "vtex.menu@2.x:menu#menu-dep4-col1"
+    ]
+  },
+
+  "menu-item#menu-dep4-col1": {
+    "props": {
+      "id": "title-menu-col",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["amazing-menu-title"],
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Marcas"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#menu-dep4-col1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "amazing-menu-menu",
+        "amazing-menu-column",
+        "amazing-menu-column-first"
+      ],
+      "title": {
+        "itemProps": {
+          "text": ""
+        },
+        "type": "custom"
+      },
+      "items": [
+        
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ebara",
+            "text": "Ebara"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Thebe",
+            "text": "Thebe"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Famac",
+            "text": "Famac"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Schneider",
+            "text": "Schneider"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bombas Leão",
+            "text": "Bombas Leão"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vibra Vert",
+            "text": "Vibra Vert"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Lepono",
+            "text": "Lepono"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Syllent",
+            "text": "Syllent"
+          }
+        },
+
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Megapress",
+            "text": "Megapress"
+          }
+        }
+
+      ]
+    }
+  }
+
+}

@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#shelf-fouritens": {
+        "children": [
+            "flex-layout.row#fouritens"
+        ],
+        "props": {
+            "blockClass": "container-shelf-fouritens"
+        }
+    },
+
+    "rich-text#shelf-title_highlight-daypromo": {
+        "props": {
+            "text": "Promoção Do Dia !",
+            "blockClass": "shelf-title"
+        }
+    },
+
+    "flex-layout.row#fouritens": {
+        "children": [
+          "list-context.product-list#highlight-shelf-fouritens"
+        ],
+        "props": {
+            "blockClass": "shelf"
+        }
+    },
+
+    "list-context.product-list#highlight-shelf-fouritens": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#highlight-shelf-fouritens"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+
+    "slider-layout#highlight-shelf-fouritens": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": "shelf",
+            "showPaginationDots": "always"
+        }
+    }
+}

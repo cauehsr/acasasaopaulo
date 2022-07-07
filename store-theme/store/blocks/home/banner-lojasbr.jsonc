@@ -1,0 +1,229 @@
+{
+
+  "flex-layout.row#lojasbrasil":{
+    "title": "Banner Lojas Brasil",
+    "children":[
+      "flex-layout.row#container-text-grupo",
+      "flex-layout.row#container-locais",
+      "flex-layout.row#container-locais2",
+      "flex-layout.row#container-locais3"
+    ],
+    "props":{
+    "blockClass": "container-banners-lojasbr" 
+    }
+  },
+
+  "flex-layout.row#container-text-grupo":{
+    "title": "Text - Maior loja",
+    "children":[
+      "flex-layout.row#columm-text-top",
+      "flex-layout.row#columm-text-bottom"
+    ],
+    "props":{
+    "width":"32%",  
+    "blockClass": "container-text-grupo" 
+    }
+  },
+
+  "flex-layout.row#columm-text-top":{
+    "title": "Text - Maior loja",
+    "children":[
+      "rich-text#text-grupo"
+    ],
+    "props":{
+    "blockClass": "columm-text-top" 
+    }
+  },
+
+  "rich-text#text-grupo": {
+    "props": {
+    "title":"Titulo - text maior grupo",
+    "text":"O Maior Grupo de Bombas <span class='vtex-bold'> <br> Com 3 lojas no Brasil</span> ",
+    "blockClass": "text-grupo"
+    }
+  },
+
+  "flex-layout.row#columm-text-bottom":{
+    "title": "Text - Ligue agora",
+    "children":[
+      "rich-text#text-ligue-agora"
+    ],
+    "props":{
+    "blockClass": "columm-text-bottom" 
+    }
+  },
+
+  "rich-text#text-ligue-agora": {
+    "props": {
+    "title":"Titulo - text ligue agora ",
+    "text":"Ligue agora e faça seu orçamento <span class='vtex-bold'> <br> 4000-2440 </span> ",
+    "blockClass": "text-ligue-agora"
+    }
+  },
+
+// Local 1 
+
+  "flex-layout.row#container-locais":{
+    "title": "Container - Locais",
+    "children":[
+      "flex-layout.row#container-logo-locais",
+      "flex-layout.row#container-btn-localizar"
+    ],
+    "props":{
+    "blockClass": "container-locais" 
+    }
+  },
+
+  "flex-layout.row#container-logo-locais":{
+    "title": "Container - Logo Locais",
+    "children":[
+      "image#logo-casasp-locais"
+    ],
+    "props":{
+    "blockClass": "container-logo-locais" 
+    }
+  },
+
+  "image#logo-casasp-locais":{
+    "props": {
+      "title":"Title - logo casasp locais",
+      "src": "assets/icons/logo-casasp-locais.svg",
+      "blockClass": "logo-casasp-locais"
+    }
+  },
+
+  "flex-layout.row#container-btn-localizar":{
+    "title": "Container - Locais",
+    "children":[
+      "link#btn-localizar"
+    ],
+    "props":{
+    "blockClass": "container-btn-localizar" 
+    }
+  },
+
+  "link#btn-localizar": {
+    "title": "btn - localizar",
+    "props": {
+      "href": "/",
+      "label": "Localizar",
+      "blockClass": "btn-localizar"
+    }
+  },
+
+  // Local 2
+
+  "flex-layout.row#container-locais2":{
+    "title": "Container - Locais2",
+    "children":[
+      "flex-layout.row#container-logo-locais2",
+      "flex-layout.row#container-btn-localizar2"
+    ],
+    "props":{
+    "blockClass": "container-locais2" 
+    }
+  },
+
+  "flex-layout.row#container-logo-locais2":{
+    "title": "Container - Logo Locais2",
+    "children":[
+      "image#logo-casasp-locais2"
+    ],
+    "props":{
+    "blockClass": "container-logo-locais2" 
+    }
+  },
+
+  "image#logo-casasp-locais2":{
+    "props": {
+      "title":"Title - logo casasp locais2",
+      "src": "assets/icons/logo-casasp-locais.svg",
+      "blockClass": "logo-casasp-locais2"
+    }
+  },
+
+  "flex-layout.row#container-btn-localizar2":{
+    "title": "Container - Locais2",
+    "children":[
+      "link#btn-localizar2"
+    ],
+    "props":{
+    "blockClass": "container-btn-localizar" 
+    }
+  },
+
+  "link#btn-localizar2": {
+    "title": "btn - localizar",
+    "props": {
+      "href": "/",
+      "label": "Localizar",
+      "blockClass": "btn-localizar2"
+    }
+  },
+
+  // Local 3
+
+  "flex-layout.row#container-locais3":{
+    "title": "Container - Locais3",
+    "children":[
+      "image#logo-whats",
+      "flex-layout.row#container-logo-locais3",
+      "flex-layout.row#container-btn-localizar3"
+      
+
+    ],
+    "props":{
+    "blockClass": "container-locais3" 
+    }
+  },
+
+  "flex-layout.row#container-logo-locais3":{
+    "title": "Container - Logo Locais3",
+    "children":[
+      "image#logo-casasp-locais3"
+    ],
+    "props":{
+    "blockClass": "container-logo-locais3" 
+    }
+  },
+
+  "image#logo-casasp-locais3":{
+    "props": {
+      "title":"Title - logo casasp locais3",
+      "src": "assets/icons/logo-casasp-locais.svg",
+      "blockClass": "logo-casasp-locais3"
+    }
+  },
+
+  "flex-layout.row#container-btn-localizar3":{
+    "title": "Container - Locais3",
+    "children":[
+      "link#btn-localizar3"
+    ],
+    "props":{
+    "blockClass": "container-btn-localizar" 
+    }
+  },
+
+  "link#btn-localizar3": {
+    "title": "btn - localizar",
+    "props": {
+      "href": "/",
+      "label": "Localizar",
+      "blockClass": "btn-localizar3"
+    }
+  },
+
+  "image#logo-whats":{
+    "props": {
+      "title":"Title - logo whats",
+      "src": "assets/icons/logo-whats.png",
+      "blockClass": "logo-whats",
+      "link":{
+        "url":"https://api.whatsapp.com/send/?phone=551155246849&text&type=phone_number&app_absent=0"
+      }
+
+    }
+  }
+
+}

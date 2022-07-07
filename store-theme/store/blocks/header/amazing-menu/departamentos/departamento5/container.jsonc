@@ -1,0 +1,52 @@
+{
+
+  "menu-item#dep5": {
+    "props": {
+      "blockClass": ["amazing-menu-department"],
+      "id": "menu-item-dep5",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "text": "Drenagem",
+        "type": "internal",
+        "href": "/drenagem",
+        "noFollow": false
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#dep5"]
+  },
+
+  "vtex.menu@2.x:submenu#dep5": {
+    "props": {
+      "blockClass": ["amazing-menu-department-submenu-5"],
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-dep5"
+    ]
+  },
+
+  "flex-layout.row#menu-dep5": {
+    "props": {
+      "blockClass": ["amazing-menu-department-block-items"],
+      "colSizing": "auto",
+      "fullWidth": true,
+      "width": "100%",
+      "experimentalHideEmptyCols": true
+    },
+    "children": [
+      // Categoria 1 Coluna 1
+      "experimental__visibility-layout#menu-dep5-col1",
+
+      // Categoria 1 Coluna 2
+      "experimental__visibility-layout#menu-dep5-col2"
+
+      // Categoria 1 Coluna 3
+     // "experimental__visibility-layout#menu-dep5-col3",
+
+      // Categoria 1 Coluna 4
+      //"experimental__visibility-layout#menu-dep5-col4"
+    ]
+  }
+  
+}

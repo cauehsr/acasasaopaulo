@@ -1,0 +1,252 @@
+{
+
+  "flex-layout.row#container-bannermagazines":{
+    "children":[
+      "flex-layout.row#main-content-magazines"
+    ],
+    "props":{
+      "title": "Banner Magazines ",
+      "blockClass": "container-bannermagazines" 
+    }
+  },
+
+  "flex-layout.row#main-content-magazines":{
+    "children":[
+      "rich-text#text-fornecedor-oficial",
+      "image#logo-casasp-magazines",
+      "flex-layout.row#container-logo-casasp-magazines"
+    ],
+    "props":{
+      "title": "Conteudo Magazines ",
+      "blockClass": "main-content-magazines" 
+    }
+  },
+
+  "rich-text#text-fornecedor-oficial":{
+    "props": {
+        "title":"Title - Fornecedor Oficial",
+        "text":"Fornecedor Oficial de<br> <span class='vtex-bold'> TODOS OS MAGAZINES </span>",
+        "blockClass": "text-fornecedor-oficial"
+    }
+  },
+
+  "flex-layout.row#container-logo-casasp-magazines":{
+    "children":[
+      "flex-layout.row#container-extra-magazines",
+      "flex-layout.row#container-casasbahia-magazines",
+      "flex-layout.row#container-new-magazines",
+      "flex-layout.row#container-submarino-magazines",
+      "flex-layout.row#container-americanas-magazines",
+      "flex-layout.row#container-magalu-magazines",
+      "flex-layout.row#container-ml-magazines",
+      "flex-layout.row#container-amazon-magazines",
+      "flex-layout.row#container-casa-magazines"
+    ],
+    "props":{
+      "title": "Conteudo Magazines ",
+      "blockClass": "container-logo-magazines" 
+    }
+  },
+
+  "image#logo-casasp-magazines":{
+    "props": {
+      "title": " Logo - Casa SP ",
+      "src": "assets/images/icon-casa-oficial.png",
+      "blockClass": "logo-casasp-magazines"
+    }
+  },
+
+  "flex-layout.row#container-extra-magazines":{
+    "children":[
+      "image#logo-extra"
+    ],
+    "props":{
+      "title": "Logo extra",
+      "blockClass": "container-extra-magazines" 
+    }
+  },
+
+  "image#logo-extra":{
+    "props": {
+      "width": "64px",
+      "heigth": "64px",
+      "title": " Logo - extra ",
+      "src": "assets/icons/icon-extra.svg",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-extra-magazines"
+    }
+  },
+
+  "flex-layout.row#container-casasbahia-magazines":{
+    "children":[
+      "image#logo-bahia"
+    ],
+    "props":{
+      "title": "Logo casasbahia",
+      "blockClass": "container-casasbahia-magazines" 
+    }
+  },
+
+  "image#logo-bahia":{
+    "props": {
+      "width": "64px",
+      "heigth": "64px",
+      "title": " Logo - bahia ",
+      "src": "assets/icons/icon-bahia.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-bahia-magazines"
+    }
+  },
+
+  "flex-layout.row#container-new-magazines":{
+    "children":[
+      "image#logo-new"
+    ],
+    "props":{
+      "title": "Logo new",
+      "blockClass": "container-new-magazines" 
+    }
+  },
+
+  "image#logo-new":{
+    "props": {
+      "title": " Logo - new ",
+      "src": "assets/icons/icon-new.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-new-magazines"
+    }
+  },
+
+  "flex-layout.row#container-submarino-magazines":{
+    "children":[
+      "image#logo-submarino"
+    ],
+    "props":{
+      "title": "Logo submarino",
+      "blockClass": "container-submarino-magazines" 
+    }
+  },
+
+  "image#logo-submarino":{
+    "props": {
+      "title": " Logo - submarino ",
+      "src": "assets/icons/icon-submarino.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-submarino-magazines"
+    }
+  },
+
+  "flex-layout.row#container-americanas-magazines":{
+    "children":[
+      "image#logo-americanas"
+    ],
+    "props":{
+      "title": "Logo americanas",
+      "blockClass": "container-americanas-magazines" 
+    }
+  },
+
+  "image#logo-americanas":{
+    "props": {
+      "title": " Logo - americanas ",
+      "src": "assets/icons/icon-americanas.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-americanas-magazines"
+    }
+  },
+
+  "flex-layout.row#container-magalu-magazines":{
+    "children":[
+      "image#logo-magalu"
+    ],
+    "props":{
+      "title": "Logo magalu",
+      "blockClass": "container-magalu-magazines" 
+    }
+  },
+
+  "image#logo-magalu":{
+    "props": {
+      "title": " Logo - magalu ",
+      "src": "assets/icons/icon-magalu.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-magalu-magazines"
+    }
+  },
+
+  "flex-layout.row#container-ml-magazines":{
+    "children":[
+      "image#logo-ml"
+    ],
+    "props":{
+      "title": "Logo ml",
+      "blockClass": "container-ml-magazines" 
+    }
+  },
+
+  "image#logo-ml":{
+    "props": {
+      "title": " Logo - ml ",
+      "src": "assets/icons/icon-ml.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-ml-magazines"
+    }
+  },
+
+  "flex-layout.row#container-amazon-magazines":{
+    "children":[
+      "image#logo-amazon"
+    ],
+    "props":{
+      "title": "Logo amazon",
+      "blockClass": "container-amazon-magazines" 
+    }
+  },
+
+  "image#logo-amazon":{
+    "props": {
+      "title": " Logo - amazon ",
+      "src": "assets/icons/icon-amazon.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-amazon-magazines"
+    }
+  },
+
+  "flex-layout.row#container-casa-magazines":{
+    "children":[
+      "image#logo-casa"
+    ],
+    "props":{
+      "title": "Logo casa",
+      "blockClass": "container-casa-magazines" 
+    }
+  },
+
+  "image#logo-casa":{
+    "props": {
+      "title": " Logo - casa ",
+      "src": "assets/icons/icon-casa.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-casa-magazines"
+    }
+  }
+
+}

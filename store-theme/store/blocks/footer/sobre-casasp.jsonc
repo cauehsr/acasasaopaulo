@@ -1,0 +1,38 @@
+{
+
+  "flex-layout.row#container-sobrecasasp":{
+    "children":[
+      "flex-layout.row#title-sobrecasasp"
+    ],
+    "props":{
+      "blockClass":"container-sobrecasasp"
+    }
+  },
+
+  "flex-layout.row#title-sobrecasasp":{
+    "children":[
+      "rich-text#title-sobrecasasp",
+      "rich-text#content-sobrecasasp"
+    ],
+    "props":{
+      "blockClass":"title-sobrecasasp"
+    }
+  },
+
+  "rich-text#title-sobrecasasp":{
+    "props": {
+      "title":"Titulo - Sobre A Casa São Paulo",
+      "text":"Sobre A Casa São Paulo",
+      "blockClass": "text-title-casasp"
+    }
+  },
+
+  "rich-text#content-sobrecasasp":{
+    "props": {
+      "title":"Conteudo - Sobre a Casa São Paulo",
+      "text":"Texto de SEO dolor sit amet, consectetur adipiscing elit. Tellus mauris morbi ac, posuere senectus diam a. Tristique mattis eros, id quisque purus facilisis lectus feugiat. Iaculis est egestas amet, nunc eget. Tristique mattis eros, id quisque purus facilisis lectus feugiat. Iaculis est egestas amet, nunc eget.",
+      "blockClass": "content-sobre-casasp"
+    }
+  }
+
+}

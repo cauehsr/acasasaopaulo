@@ -1,0 +1,18 @@
+{
+    "store.home": {
+        "blocks": [
+            "flex-layout.row#container-banner-Principal",
+            "flex-layout.row#lojasbrasil",
+            "flex-layout.row#container-destaque",
+            "flex-layout.row#container-mais-vendidos",
+            "flex-layout.row#container-banners-duplo",
+            "flex-layout.row#container-precos-imbativeis",
+            "flex-layout.row#estagios-maisvendidas",
+            "flex-layout.row#container-precogarantido",
+            "flex-layout.row#container-bannermagazines",
+            "flex-layout.row#container-destaque",
+            "flex-layout.row#container-mais-vendidos",
+            "flex-layout.row#container-sobrecasasp"
+        ]
+    }
+}

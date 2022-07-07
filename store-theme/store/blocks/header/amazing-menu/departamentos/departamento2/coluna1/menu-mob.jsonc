@@ -1,0 +1,198 @@
+{
+  "experimental__visibility-layout#menu-dep2-col1-mob": {
+    "title": "Coluna",
+    "props": {
+      "visible": true
+    },
+    "children": ["flex-layout.col#menu-dep2-col1-mob"]
+  },
+  "flex-layout.col#menu-dep2-col1-mob": {
+    "props": {
+      "blockClass": [
+        "amazing-menu-menu-mob",
+        "amazing-menu-column-mob",
+        "amazing-menu-column-first-mob"
+      ]
+    },
+    "children": [
+      "menu-item#menu-dep2-col1-mob",
+      "vtex.menu@2.x:menu#menu-dep2-col1-mob"
+    ]
+  },
+  "menu-item#menu-dep2-col1-mob": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["amazing-menu-title"],
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ver Tudo",
+        "text": "Ver Tudo"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#menu-dep2-col1-mob": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "amazing-menu-menu-mob",
+        "amazing-menu-column-mob",
+        "amazing-menu-column-first-mob"
+      ],
+      "title": {
+        "itemProps": {
+          "text": ""
+        },
+        "type": "custom"
+      },
+      "items": [
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Blusas",
+            "text": "Blusas"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Tops",
+            "text": "Tops"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Saias",
+            "text": "Saias"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Calças",
+            "text": "Calças"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Vestidos",
+            "text": "Vestidos"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Casacos",
+            "text": "Casacos"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Macacão",
+            "text": "Macacão"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Body",
+            "text": "Body"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Maiõ",
+            "text": "Maiõ"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Biquíni",
+            "text": "Biquíni"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Short",
+            "text": "Short"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+
+  "flex-layout.row#container-marcas-menu":{
+    "title":"box - marcas menu",
+    "children":[
+      "flex-layout.row#container-marcas-menu1",
+      "flex-layout.row#container-marcas-menu2",
+      "flex-layout.row#container-marcas-menu3"
+
+    ],
+    "props":{
+      "blockClass": "container-marcas-menu"
+    }
+  },
+
+  "rich-text#text-marcas":{
+    "props": {
+      "tag": "h1",
+        "title":"Titulo Marcas",
+        "text":"Marcas",
+        "blockClass": "title-amazing-menu"
+    }
+  },
+
+  "flex-layout.row#container-marcas-menu1":{
+    "title":"box - marcas menu 1",
+    "children":[
+      "image#marca-ebara",
+      "image#marca-thebe",
+      "image#marca-famac"
+    ],
+    "props":{
+      "blockClass": "container-marcas-menu1"
+    }
+  },
+
+  "image#marca-ebara":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo vtex",
+      "src": "assets/images/logo-ebara.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-ebara"
+    }
+  },
+
+  "image#marca-thebe":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo thebe",
+      "src": "assets/images/logo-thebe.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-thebe"
+    }
+  },
+
+  "image#marca-famac":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo famac",
+      "src": "assets/images/logo-famac.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-famac"
+    }
+  },
+
+  "flex-layout.row#container-marcas-menu2":{
+    "title":"box - marcas menu 2",
+    "children":[
+      "image#marca-schneider",
+      "image#marca-bombas-leao",
+      "image#marca-vibravert"
+    ],
+    "props":{
+      "blockClass": "container-marcas-menu2"
+    }
+  },
+
+  "image#marca-schneider":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo schneider",
+      "src": "assets/images/logo-schneider.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-schneider"
+    }
+  },
+
+  "image#marca-bombas-leao":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo bombas-leao",
+      "src": "assets/images/bombas-leao.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-bombas-leao"
+    }
+  },
+
+  "image#marca-vibravert":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo vibravert",
+      "src": "assets/images/logo-vibravert.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-vibravert"
+    }
+  },
+
+  "flex-layout.row#container-marcas-menu3":{
+    "title":"box - marcas menu 3",
+    "children":[
+      "image#marca-lepono",
+      "image#marca-syllent",
+      "image#marca-megapress"
+    ],
+    "props":{
+      "blockClass": "container-marcas-menu3"
+    }
+  },
+
+  "image#marca-lepono":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo lepono",
+      "src": "assets/images/logo-lepono.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-lepono"
+    }
+  },
+
+  "image#marca-syllent":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo syllent",
+      "src": "assets/images/logo-syllent.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-syllent"
+    }
+  },
+
+  "image#marca-megapress":{
+    "props": {
+      "width": "192px",
+      "height" :"96px",
+      "title":"Title - logo megapress",
+      "src": "assets/images/logo-megapress.png",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "logo-marca-megapress"
+    }
+  }
+
+}

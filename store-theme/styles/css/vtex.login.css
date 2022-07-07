@@ -1,0 +1,49 @@
+:global(.vtex-login-2-x-formTitle ){
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+}
+
+:global(.vtex-login-2-x-accessCodeOptionBtn )
+:global(.vtex-button__label ){
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+}
+
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+:global(.vtex-button__label ){
+    font-size: 13px;
+    color:#03899b;
+    font-weight: 700;
+}
+
+:global(.vtex-login-2-x-emailPasswordOptionBtn)
+:global(.vtex-button){
+    background: #8feced;
+}
+
+:global(.vtex-login-2-x-accessCodeOptionBtn )
+:global(.vtex-button){
+    background: #03899b;
+
+}
+
+:global(.vtex-login-2-x-oauthLabel){
+    font-size: 13px;
+    color:#38547e;
+    font-weight: 700;
+}
+
+:global(.vtex-login-2-x-sendButton )
+:global(.vtex-button){
+    background: #03899b;
+    border-color: inherit;
+}
+
+:global(.vtex-login-2-x-formTitle){
+    font-size: 13px !important;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer ){
+    display: none;
+}

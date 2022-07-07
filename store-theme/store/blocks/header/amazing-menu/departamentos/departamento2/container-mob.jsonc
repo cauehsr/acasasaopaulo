@@ -1,0 +1,47 @@
+{
+  "menu-item#dep2-mob": {
+    "props": {
+      "blockClass": ["amazing-menu-department"],
+      "id": "menu-item-dep2",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "text": "OFF",
+        "type": "internal",
+        "href": "/climatizacao",
+        "noFollow": false
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#dep2"]
+  },
+  "vtex.menu@2.x:submenu#dep2": {
+    "props": {
+      "blockClass": ["amazing-menu-department-submenu-2-mob"],
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-dep2"
+     
+
+    ]
+  },
+
+
+
+  "flex-layout.row#menu-dep2": {
+    "props": {
+      "blockClass": ["amazing-menu-department-block-mob"],
+      "colSizing": "auto",
+      "fullWidth": true,
+      "width": "100%",
+      "experimentalHideEmptyCols": true
+    },
+    "children": [
+    
+      // Categoria 1 Coluna 3
+      "experimental__visibility-layout#menu-dep2-col3"
+
+
+    ]
+  }
+}

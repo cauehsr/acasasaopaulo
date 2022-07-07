@@ -1,0 +1,353 @@
+{
+
+  "flex-layout.row#container-termosmaisbuscados":{
+    "title": "Container Termos Mais Buscados",
+    "children":[
+      "flex-layout.col#container-title",
+      "flex-layout.col#container-one",
+      "flex-layout.col#container-two",
+      "flex-layout.col#container-three",
+      "flex-layout.col#container-four"
+    ],
+      "props":{
+      "blockClass": "container-termos-buscados" 
+    }
+  },
+
+  "flex-layout.col#container-title":{
+    "title": "Container Title",
+    "children":[
+      "rich-text#title-termos"
+
+    ],
+      "props":{
+      "blockClass": "container-title" 
+    }
+  },
+
+  "rich-text#title-termos": {
+    "props": {
+    "title":"Titulo - Termos mais buscados",
+    "text":"TERMOS MAIS BUSCADOS",
+    "blockClass": "title-termos-mais-buscados"
+    }
+  },
+
+  "flex-layout.col#container-one":{
+    "title": "Container termos one",
+    "children":[
+      "link#termos-aparador",
+      "link#termos-schneider",
+      "link#termos-bc925",
+      "link#termos-drenagem",
+      "link#termos-autoaspirante",
+      "link#termos-caneta",
+      "link#termos-centrifuga"
+
+    ],
+      "props":{
+      "blockClass": "container-one" 
+    }
+  },
+
+  "link#termos-aparador": {
+    "title": "link - Aparador de Grama",
+    "props": {
+      "href": "/",
+      "label": "Aparador de Grama",
+      "blockClass": "link-termos-aparador"
+    }
+  },
+
+  "link#termos-schneider": {
+    "title": "Link - ASP Schneider",
+    "props": {
+      "href": "/",
+      "label": "ASP Schneider",
+      "blockClass": "link-termos-schneider"
+    }
+  },
+
+  "link#termos-bc925": {
+    "title": "Link BC925",
+    "props": {
+      "href": "/",
+      "label": "BC-92S 1C",
+      "blockClass": "link-termos-BC925"
+    }
+  },
+
+  "link#termos-drenagem": {
+    "title": "Link Drenagem",
+    "props": {
+      "href": "/",
+      "label": "Drenagem",
+      "blockClass": "link-termos-drenagem"
+    }
+  },
+
+  "link#termos-autoaspirante": {
+    "title": "Link utoaspirantee",
+    "props": {
+      "href": "/",
+      "label": "Bomba Autoaspirante",
+      "blockClass": "link-termos-autoaspirante"
+    }
+  },
+
+  "link#termos-caneta": {
+    "title": "Link Caneta",
+    "props": {
+      "href": "/",
+      "label": "Bomba Caneta",
+      "blockClass": "link-termos-bombacaneta"
+    }
+  },
+
+  "link#termos-centrifuga": {
+    "title": "Link centrifuga",
+    "props": {
+      "href": "/",
+      "label": "Bomba Centrífuga",
+      "blockClass": "link-termos-bombacentrífuga"
+    }
+  },
+
+  "flex-layout.col#container-two":{
+    "title": "Container termos two",
+    "children":[
+      "link#termos-aparador-two",
+      "link#termos-schneider-two",
+      "link#termos-bc925-two",
+      "link#termos-drenagem-two",
+      "link#termos-autoaspirante-two",
+      "link#termos-caneta-two",
+      "link#termos-centrifuga-two"
+    ],
+      "props":{
+      "blockClass": "container-two" 
+    }
+  },
+
+  "link#termos-aparador-two": {
+    "title": "link - Aparador de Grama",
+    "props": {
+      "href": "/",
+      "label": "Aparador de Grama",
+      "blockClass": "link-col2-aparador-two"
+    }
+  },
+
+  "link#termos-schneider-two": {
+    "title": "Link - ASP Schneider",
+    "props": {
+      "href": "/",
+      "label": "ASP Schneider",
+      "blockClass": "link-col2-schneider-two"
+    }
+  },
+
+  "link#termos-bc925-two": {
+    "title": "Link BC925",
+    "props": {
+      "href": "/",
+      "label": "BC-92S 1C",
+      "blockClass": "link-col2-bc925-two"
+    }
+  },
+
+  "link#termos-drenagem-two": {
+    "title": "Link Drenagem",
+    "props": {
+      "href": "/",
+      "label": "Drenagem",
+      "blockClass": "link-col2-drenagem-two"
+    }
+  },
+
+  "link#termos-autoaspirante-two": {
+    "title": "Link utoaspirantee",
+    "props": {
+      "href": "/",
+      "label": "Bomba Autoaspirante",
+      "blockClass": "link-col2-autoaspirante-two"
+    }
+  },
+
+  "link#termos-caneta-two": {
+    "title": "Link Caneta",
+    "props": {
+      "href": "/",
+      "label": "Bomba Caneta",
+      "blockClass": "link-col2-caneta-two"
+    }
+  },
+
+  "link#termos-centrifuga-two": {
+    "title": "Link centrifuga",
+    "props": {
+      "href": "/",
+      "label": "Bomba Centrífuga",
+      "blockClass": "link-col2-centrifuga-two"
+    }
+  },
+
+  "flex-layout.col#container-three":{
+    "title": "Container termos three",
+    "children":[
+      "link#termos-aparador-three",
+      "link#termos-schneider-three",
+      "link#termos-bc925-three",
+      "link#termos-drenagem-three",
+      "link#termos-autoaspirante-three",
+      "link#termos-caneta-three",
+      "link#termos-centrifuga-three"
+    ],
+      "props":{
+      "blockClass": "container-three" 
+    }
+  },
+
+  "link#termos-aparador-three": {
+    "title": "link - Aparador de Grama",
+    "props": {
+      "href": "/",
+      "label": "Aparador de Grama",
+      "blockClass": "link-col3-aparador-three"
+    }
+  },
+
+  "link#termos-schneider-three": {
+    "title": "Link - ASP Schneider",
+    "props": {
+      "href": "/",
+      "label": "ASP Schneider",
+      "blockClass": "link-col3-schneider-three"
+    }
+  },
+
+  "link#termos-bc925-three": {
+    "title": "Link BC925",
+    "props": {
+      "href": "/",
+      "label": "BC-92S 1C",
+      "blockClass": "link-col3-bc925-three"
+    }
+  },
+
+  "link#termos-drenagem-three": {
+    "title": "Link Drenagem",
+    "props": {
+      "href": "/",
+      "label": "Drenagem",
+      "blockClass": "link-col3-drenagem-three"
+    }
+  },
+
+  "link#termos-autoaspirante-three": {
+    "title": "Link utoaspirantee",
+    "props": {
+      "href": "/",
+      "label": "Bomba Autoaspirante",
+      "blockClass": "link-col3-autoaspirante-three"
+    }
+  },
+
+  "link#termos-caneta-three": {
+    "title": "Link Caneta",
+    "props": {
+      "href": "/",
+      "label": "Bomba Caneta",
+      "blockClass": "link-col3-caneta-three"
+    }
+  },
+
+  "link#termos-centrifuga-three": {
+    "title": "Link centrifuga",
+    "props": {
+      "href": "/",
+      "label": "Bomba Centrífuga",
+      "blockClass": "link-col3-centrifuga-three"
+    }
+  },
+
+  "flex-layout.col#container-four":{
+    "title": "Container termos four",
+    "children":[
+      "link#termos-aparador-four",
+      "link#termos-schneider-four",
+      "link#termos-bc925-four",
+      "link#termos-drenagem-four",
+      "link#termos-autoaspirante-four",
+      "link#termos-caneta-four",
+      "link#termos-centrifuga-four"
+    ],
+      "props":{
+      "blockClass": "container-four" 
+    }
+  },
+
+  "link#termos-aparador-four": {
+    "title": "link - Aparador de Grama",
+    "props": {
+      "href": "/",
+      "label": "Aparador de Grama",
+      "blockClass": "link-col4-aparador-four"
+    }
+  },
+
+  "link#termos-schneider-four": {
+    "title": "Link - ASP Schneider",
+    "props": {
+      "href": "/",
+      "label": "ASP Schneider",
+      "blockClass": "link-col4-schneider-four"
+    }
+  },
+
+  "link#termos-bc925-four": {
+    "title": "Link BC925",
+    "props": {
+      "href": "/",
+      "label": "BC-92S 1C",
+      "blockClass": "link-col4-bc925-four"
+    }
+  },
+
+  "link#termos-drenagem-four": {
+    "title": "Link Drenagem",
+    "props": {
+      "href": "/",
+      "label": "Drenagem",
+      "blockClass": "link-col4-drenagem-four"
+    }
+  },
+
+  "link#termos-autoaspirante-four": {
+    "title": "Link utoaspirantee",
+    "props": {
+      "href": "/",
+      "label": "Bomba Autoaspirante",
+      "blockClass": "link-col4-autoaspirante-four"
+    }
+  },
+
+  "link#termos-caneta-four": {
+    "title": "Link Caneta",
+    "props": {
+      "href": "/",
+      "label": "Bomba Caneta",
+      "blockClass": "link-col4-caneta-four"
+    }
+  },
+
+  "link#termos-centrifuga-four": {
+    "title": "Link centrifuga",
+    "props": {
+      "href": "/",
+      "label": "Bomba Centrífuga",
+      "blockClass": "link-col4-centrifuga-four"
+    }
+  }
+
+}

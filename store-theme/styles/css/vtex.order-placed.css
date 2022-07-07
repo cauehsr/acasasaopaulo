@@ -1,0 +1,27 @@
+:global(.vtex-order-placed-2-x-confirmationIconWrapper){
+    color: #00A0C6;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons )
+:global(.vtex-button ){
+    height: 48px !important;
+    width: 250px;
+    background: #00A0C6;
+    border: #00A0C6;
+    border-radius: 0 !important;
+    color: #fff;
+    font-weight: 700;
+}
+
+:global(.vtex-order-placed-2-x-printButtonWrapper)
+:global(.vtex-button ){
+    height: 48px !important;
+    background: #00A0C6;
+    border: #00A0C6;
+    border-radius: 0 !important;
+    color: #fff;
+    font-weight: 700;
+    width: 315px;
+    padding-left: 36px;
+
+}

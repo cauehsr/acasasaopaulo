@@ -1,0 +1,52 @@
+{
+
+  "flex-layout.row#container-links":{
+    "title": "Container links-rapidos",
+    "children":[
+      "link#news-televenda",
+      "link#news-cotacoes",
+      "link#news-emails",
+      "link#news-whatsapp"
+    ],
+      "props":{
+      "blockClass": "container-links-rapidos" 
+    }
+  },
+
+  "link#news-televenda": {
+    "title": "link televendas",
+    "props": {
+      "href": "/",
+      "label": "SAC E TELEVENDAS",
+      "blockClass": "link-televendas-newsletter"
+    }
+  },
+
+  "link#news-cotacoes": {
+    "title": "link Cotações",
+    "props": {
+      "href": "/",
+      "label": "COTAÇÕES",
+      "blockClass": "link-cotacoes-newsletter"
+    }
+  },
+
+  "link#news-emails": {
+    "title": "link emails",
+    "props": {
+      "href": "/",
+      "label": "E-MAIL",
+      "blockClass": "link-emails-newsletter"
+    }
+  },
+
+  "link#news-whatsapp": {
+    "title": "link whatsapp",
+    "props": {
+      "href": "/",
+      "label": "NOSSO WHATSAPP",
+      "blockClass": "link-whatsapp-newsletter"
+    }
+  }
+
+}

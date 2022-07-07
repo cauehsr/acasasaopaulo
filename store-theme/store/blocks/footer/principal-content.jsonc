@@ -1,0 +1,338 @@
+{
+
+  // container principal
+
+  "flex-layout.row#container-principal-footer":{
+    "title": "Container - Principal Footer",
+    "children":[
+      "flex-layout.col#footer-col-one",
+      "flex-layout.col#footer-col-right"
+    ],
+      "props":{
+      "blockClass": "container-principal-footer" 
+    }
+  },
+
+  // coluna 1
+
+  "flex-layout.col#footer-col-one":{
+    "title": "Coluna - one footer",
+    "children":[
+      "flex-layout.row#banner-logos",
+      "flex-layout.row#horario-dp-vendas",
+      "flex-layout.row#horario-chamado-tecnico",
+      "flex-layout.row#endereco-footer"
+    ],
+      "props":{
+      "blockClass": "footer-columns-one" 
+    }
+  },
+
+  "flex-layout.row#banner-logos":{
+    "title": "Container Banner Logos",
+    "children":[
+      "flex-layout.col#logo-acasasp",
+      "flex-layout.col#logo-arf"
+    ],
+      "props":{
+      "blockClass": "container-banner-logos" 
+    }
+  },
+  
+  "flex-layout.col#logo-acasasp":{
+    "title": "Container Logo CasaSP",
+    "children":[
+      "image#logo-casasp-footer"
+    ],
+      "props":{
+      "blockClass": "container-logo-footer-casasp" 
+    }
+  },
+
+  "image#logo-casasp-footer":{
+    "props": {
+      "src": "assets/images/logo-footer.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-casasp-footer"
+    }
+  },
+
+  "flex-layout.col#logo-arf":{
+    "title": "Container Logo arf",
+    "children":[
+      "image#logo-arf-footer"
+    ],
+      "props":{
+      "blockClass": "container-logo-footer-arf" 
+    }
+  },
+
+  "image#logo-arf-footer":{
+    "props": {
+      "src": "assets/images/logo-grupo-arf.png",
+      "link":{ 
+        "url":"/"
+      },
+      "blockClass": "logo-arf-footer"
+    }
+  },
+
+  // Container Dp Vendas
+
+  "flex-layout.row#horario-dp-vendas":{
+    "title": "Container Dp vendas",
+    "children":[
+      "rich-text#title-dp-vendas",
+      "rich-text#horario-semanal",
+      "rich-text#horario-finaldesemana"
+    ],
+      "props":{
+      "blockClass": "container-depto-vendas"
+    }
+  },
+
+  "rich-text#title-dp-vendas":{
+    "props": {
+        "title":"title - Depto Vendas",
+        "text":"Horário de Atendimento Depto. de vendas",
+        "blockClass": "title-dp-vendas"
+    }
+  },
+
+  "rich-text#horario-semanal":{
+    "props": {
+        "title":"title - Horario seg-sex",
+        "text":"Segunda à Sexta das 08h às 17h",
+        "blockClass": "text-horario-seg-sex"
+    }
+  },
+
+  "rich-text#horario-finaldesemana":{
+    "props": {
+        "title":"title - Horario final de semana",
+        "text":"Sábados das 08h às 12h",
+        "blockClass": "text-horario-finaldesemana"
+    }
+  },
+
+  // Container Chamado Tecnico
+
+  "flex-layout.row#horario-chamado-tecnico":{
+    "title": "Container Chamado Tecnico",
+    "children":[
+      "rich-text#title-chamados-tecnicos",
+      "rich-text#24-hrs"
+    ],
+      "props":{
+      "blockClass": "container-chamado-tecnico" 
+    }
+  },
+
+  "rich-text#title-chamados-tecnicos":{
+    "props": {
+        "title":"title - Chamados Tecnicos",
+        "text":"Horário de Atendimento Chamados Técnicos",
+        "blockClass": "title-chamados-tecnicos"
+    }
+  },
+
+  "rich-text#24-hrs":{
+    "props": {
+        "title":"title - 24 hrs",
+        "text":"24 horas por dia",
+        "blockClass": "text-horario-24hrs"
+    }
+  },
+
+  // Container Endereço
+
+  "flex-layout.row#endereco-footer":{
+    "title": "Container Endereço",
+    "children":[
+      "rich-text#title-endereco",
+      "rich-text#text-endereco"
+    ],
+      "props":{
+      "blockClass": "container-endereco" 
+    }
+  },
+
+  "rich-text#title-endereco":{
+    "props": {
+        "title":"title - Endereço",
+        "text":"Endereço",
+        "blockClass": "title-endereco"
+    }
+  },
+
+  "rich-text#text-endereco":{
+    "props": {
+        "title":"text - endereco",
+        "text":"Rua Maria Aparecida Cardia, 183 <br> CEP: 04781-065 Vila Friburgo | INTERLAGOS - São Paulo - SP",
+        "blockClass": "text-endereco"
+    }
+  },
+
+  //coluna 2
+
+  //container institucional
+
+  "flex-layout.col#footer-col-two":{
+    "title": "Coluna - Two footer",
+    "children":[
+      "rich-text#title-institucional",
+      "link#quem-somos",
+      "link#politicadeentrega",
+      "link#trocasedevolucoes",
+      "link#duvidasfrequentes",
+      "link#segurocomprar",
+      "link#atendimento"
+    ],
+      "props":{
+      "blockClass": "footer-columns-two" 
+    }
+  },
+
+  "rich-text#title-institucional":{
+    "props": {
+        "title":"Title - Institucional",
+        "text":"Institucional",
+        "blockClass": "title-col-institucional"
+    }
+  },
+
+  "link#quem-somos": {
+    "title": "link quem somos",
+    "props": {
+      "href": "/",
+      "label": "quem somos",
+      "blockClass": "link-quemsomos"
+    }
+  },
+
+  "link#politicadeentrega": {
+    "title": "Link Politica de Entrega",
+    "props": {
+      "href": "/",
+      "label": "Politica de Entrega",
+      "blockClass": "link-politicadeentrega"
+    }
+  },
+
+  "link#trocasedevolucoes": {
+    "title": "Link trocas e devoluções",
+    "props": {
+      "href": "/",
+      "label": "trocas e privacidade",
+      "blockClass": "link-trocasedevolucoes"
+    }
+  },
+
+  "link#duvidasfrequentes": {
+    "title": "Link - duvidas frequentes",
+    "props": {
+      "href": "/",
+      "label": "Dúvidas frequentes",
+      "blockClass": "link-duvidasfrequentes"
+    }
+  },
+
+  "link#segurocomprar": {
+    "title": "Link seguro comprar",
+    "props": {
+      "href": "/",
+      "label": "é seguro comprar ",
+      "blockClass": "link-segurocomprar"
+    }
+  },
+
+  "link#atendimento": {
+    "title": "Link politica atendimento",
+    "props": {
+      "href": "/",
+      "label": "politica atendimento ",
+      "blockClass": "link-politicaatendimento"
+    }
+  },
+
+  //coluna 3
+
+  //Segurança
+
+  "flex-layout.col#footer-col-right":{
+    "title": "Coluna - right",
+    "children":[
+      "flex-layout.col#footer-col-two",
+      "flex-layout.col#footer-col-three"
+    ],
+      "props":{
+      "blockClass": "footer-col-right" 
+    }
+  },
+
+  "flex-layout.col#footer-col-three":{
+    "title": "Coluna - Three footer",
+    "children":[
+      "flex-layout.row#formas-pagamento",
+      "flex-layout.row#seguranca"
+    ],
+      "props":{
+      "blockClass": "footer-columns-three" 
+    }
+  },
+
+  "flex-layout.row#formas-pagamento":{
+    "title": "Container Formas Pagamento",
+    "children":[
+      "rich-text#title-formaspagamento",
+      "image#logo-formas-pagamento"
+    ],
+      "props":{
+      "blockClass": "container-formas-pagamento" 
+    }
+  },  
+
+  "rich-text#title-formaspagamento":{
+    "props": {
+        "title":"Title - Formas Pagamento",
+        "text":"Formas de Pagamento",
+        "blockClass": "title-col-formaspagamento"
+    }
+  },
+
+  "image#logo-formas-pagamento":{
+    "props": {
+      "src": "assets/images/formas-pagamento.png",
+      "blockClass": "logo-formas-pagamento"
+    }
+  },
+
+  "flex-layout.row#seguranca":{
+    "title": "Container - Segurança",
+    "children":[
+      "rich-text#title-seguranca",
+      "image#logo-letsencrypt"
+    ],
+      "props":{
+      "blockClass": "container-seguranca" 
+    }
+  },  
+
+  "rich-text#title-seguranca":{
+    "props": {
+        "title":"Title - Segurança",
+        "text":"Segurança",
+        "blockClass": "title-seguranca"
+    }
+  },
+
+  "image#logo-letsencrypt":{
+    "props": {
+      "src": "assets/images/lets-encrypt.png",
+      "blockClass": "logo-letsencrypt"
+    }
+  }
+
+}

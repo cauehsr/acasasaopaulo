@@ -1,0 +1,48 @@
+{
+  "menu-item#dep7": {
+    "props": {
+      "blockClass": ["amazing-menu-department"],
+      "id": "menu-item-dep7",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "text": "Submersa",
+        "type": "internal",
+        "href": "/submersa",
+        "noFollow": false
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#dep7"]
+  },
+  "vtex.menu@2.x:submenu#dep7": {
+    "props": {
+      "blockClass": ["amazing-menu-department-submenu-07"],
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-dep7"
+    ]
+  },
+  "flex-layout.row#menu-dep7": {
+    "props": {
+      "blockClass": ["amazing-menu-department-block-items"],
+      "colSizing": "auto",
+      "fullWidth": true,
+      "width": "100%",
+      "experimentalHideEmptyCols": true
+    },
+    "children": [
+      // Categoria 1 Coluna 1
+      "experimental__visibility-layout#menu-dep7-col1",
+
+      // Categoria 1 Coluna 2
+      "experimental__visibility-layout#menu-dep7-col2"
+
+      // Categoria 1 Coluna 3
+      // "experimental__visibility-layout#menu-dep7-col3",
+
+      // Categoria 1 Coluna 4
+       //"experimental__visibility-layout#menu-dep7-col4"
+    ]
+  }
+}

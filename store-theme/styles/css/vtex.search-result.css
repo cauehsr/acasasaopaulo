@@ -1,0 +1,210 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--container-products ){
+  max-width: 1200px;
+  margin: 0  auto;
+}
+
+:global(.vtex-search-result-3-x-galleryTitle--layout ){
+  display: none;
+}
+
+:global(.vtex-search-result-3-x-container--layout)
+:global(.vtex-flex-layout-0-x-flexRow--banner-search){
+  position: relative;
+}
+
+:global(.vtex-search-result-3-x-container--layout)
+:global(.vtex-breadcrumb-1-x-container ){
+  position: absolute;
+  top: 10px;
+}
+
+:global(.vtex-search-result-3-x-container--layout)
+:global(.vtex-breadcrumb-1-x-caretIcon),
+:global(.vtex-search-result-3-x-container--layout)
+:global(.vtex-breadcrumb-1-x-link){
+  color: #fff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--banner-search )
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--banner-search ){
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--order-by ){
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* pagina principal */
+
+:global(.vtex-flex-layout-0-x-flexRowContent--content-text-banner ){
+  display: flex;
+  flex-direction: column;
+  width: 507px;
+  height: 130px;
+  gap: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content-text-banner ){
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 6em;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content-banner-search ){
+  position: absolute;
+  top: 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-marca-search ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #f2f2f2;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-marca-search){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content-img-banner ){
+  max-width: 200px;
+  position: absolute;
+  top: 20px;
+  right: 8em;
+}
+
+:global(.vtex-search-result-3-x-filter__container ){
+  width: 334px;
+  border: 1px solid #919191; 
+  margin-bottom: 20px;
+  padding: 24px;
+  border-radius: 5px;
+}
+
+
+:global(.vtex-search-result-3-x-filter__container--selectedFilters),
+:global(.vtex-search-result-3-x-filter__container--title){
+  display: none !important; 
+}
+
+:global(.vtex-search-result-3-x-caretIcon ){
+  color: #3A3A3A;
+}
+
+:global(.vtex-checkbox__label ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #3A3A3A;
+}
+
+:global(.vtex-search-result-3-x-filterTitle ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #3A3A3A;
+}
+
+:global(.vtex-checkbox__inner-container ){
+  border: 1px solid #C6C6C6;
+  border-radius: 5px;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore )
+:global(.vtex-button ){
+  background: transparent;
+  border: 1px solid #1F6591;
+  border-radius: 22px;
+  width: 250px;
+  height: 44px;
+  color: #3a3a3a;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 48px 0;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore )
+:global(.vtex-button__label){
+  display: none;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore )
+:global(.vtex-button)::after{
+  content: 'VER MAIS PRODUTOS';
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore )
+:global(.vtex-button)::before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 18px;
+  color: #1f6591;
+  position: relative;
+  top: 2px;
+  font-weight: 700;
+}
+
+
+:global(.vtex-search-result-3-x-orderByText ){
+  color: #3a3a3a !important;
+  font-weight: 400;
+}
+
+:global(.vtex-search-result-3-x-showingProducts){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #3a3a3a;
+}
+
+:global(.vtex-search-result-3-x-showingProductsCount){
+  color: #3A3A3A !important;
+}
+
+:global(.vtex-search-result-3-x-filterPopupTitle ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #1F6591;
+  text-decoration: underline;
+}
+
+
+
+@media (min-width: 1300px){
+
+  :global(.vtex-flex-layout-0-x-flexRow--content-text-banner){
+    padding-top: 9em;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--content-img-banner){
+    top: 65px;
+    right: 20em;
+  }
+
+
+}

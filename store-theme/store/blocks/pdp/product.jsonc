@@ -1,0 +1,340 @@
+{
+
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#description",
+      "flex-layout.row#confira"
+    ]
+  },
+
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "blockClass": "product-container-breadcrumb"
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+
+  "flex-layout.row#description": {
+    "props": {
+      "blockClass": "product-container-description"
+    },
+    "children": [
+      "product-description"
+    ]
+  },
+
+  "product-description": {
+    "props": {
+      "collapseContent": false
+    }
+  },
+
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "product-container-top"
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "flex-layout.col#stack": {
+    "children": [
+      "stack-layout"
+    ],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+
+  "flex-layout.row#product-image": {
+    "props": {
+      "blockClass": "product-thumbs"
+    },
+    "children": [
+      "product-images"
+    ]
+  },
+
+  "product-images": {
+    "props": {
+      "blockClass": "product-thumbs",
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "auto"
+      },
+      "displayThumbnailsArrows": true,
+      "showPaginationDot": true,
+      "showBadge": true
+    }
+  },
+
+  "flex-layout.col#rating": {
+    "children": [
+      "product-rating-summary"
+    ],
+    "props": {
+      "blockClass": "product-rating"
+    }
+  },
+
+  "flex-layout.col#right-col": {
+    "props": {
+      "blockClass": "product-details",
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.row#Itens-top",
+      "flex-layout.row#product-name",
+      "flex-layout.row#product-quantity-shipping",
+      "flex-layout.row#product-price-container",
+      "flex-layout.col#button-add-icon",
+      "flex-layout.row#product-cep"
+      
+    ]
+  },
+
+  "flex-layout.row#Itens-top": {
+    "children": [
+      "product-identifier.product",
+      "flex-layout.col#wishlist-shelf"
+    ],
+    "props": {
+      "blockClass": "itens-top"
+    }
+  },
+
+  "flex-layout.col#wishlist-shelf": {
+    "props": {
+      "blockClass": "wishlist-shelf"
+    },
+    "children": [
+      "flex-layout.col#button-add-icon"
+    ]
+  },
+
+  "flex-layout.col#button-add-icon": {
+    "props": {
+      "blockClass": "product_icon--products"
+    },
+    "children": [
+      "add-to-cart-button"
+    ]
+  },
+
+  "flex-layout.row#product-price-container": {
+    "props": {
+      "blockClass": "product-price__container"
+    },
+    "children": [
+      "product-list-price#summary",
+      "flex-layout.row#selling-price",
+      "product-installments"
+    ]
+  },
+
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
+    }
+  },
+
+  "flex-layout.row#product-cep": {
+    "props": {
+      "blockClass": "product-cep"
+    },
+    "children": [
+      "shipping-simulator"
+    ]
+  },
+
+  "flex-layout.row#product-quantity-shipping": {
+    "props": {
+      "blockClass": "product-quantity-shipping"
+    },
+    "children": [
+      "product-quantity",
+      "flex-layout.row#buy-button--minicart"
+    ]
+  },
+
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+
+  "flex-layout.row#avaliacoes": {
+    "children": [
+      "product-reviews",
+      "product-questions-and-answers"
+    ],
+    "props": {
+      "blockClass": "product-questions-and-answers"
+    }
+  },
+
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "hideImpossibleCombinations": false,
+      "showValueForVariation": "all",
+      "disableUnavailableSelectOptions": false,
+      "displayMode": "select",
+      "visibility": "always"
+    }
+  },
+
+  "flex-layout.row#containerButtons": {
+    "props": {
+      "blockClass": "product__container--products"
+    },
+    "children": [
+      "flex-layout.row#buy-button"
+    ]
+  },
+
+  "flex-layout.row#containerButtonsMobile": {
+    "props": {
+      "blockClass": "product__container--products-mobile"
+    },
+    "children": [
+      "flex-layout.row#buy-button"
+    ]
+  },
+
+  "flex-layout.row#buy-button--minicart": {
+    "props": {
+      "blockClass": "product-container-addtocart"
+    },
+    "children": [
+      "add-to-cart-button#checkout"
+    ]
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "blockClass": "product-container-addtocart-checkout"
+    },
+    "children": [
+      "add-to-cart-button"
+    ]
+  },
+
+  "add-to-cart-button#checkout": {
+    "props": {
+      "isOneClickBuy": true
+    }
+  },
+
+  "flex-layout.row#confira": {
+    "children": [
+      "rich-text#Confira",
+      "list-context.product-list#confira"
+    ],
+    "props": {
+      "blockClass": "confira"
+    }
+  },
+
+  "link#vertudo":{
+    "props": {
+      "title":"botao - ver tudo",
+      "href": "/",
+      "label": "Ver tudo",
+      "blockClass":"link-vertudo"
+    }
+  },
+
+  "rich-text#Confira": {
+    "props": {
+      "text": "Complete sua festa",
+      "blockClass": "confira"
+    }
+  },
+
+  "list-context.product-list#confira": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#confira"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "slider-layout#confira": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "always"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "promotion"
+    },
+    "children": [
+      "product-highlight-wrapper"
+    ]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": [
+      "product-highlight-text"
+    ]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  }
+
+}

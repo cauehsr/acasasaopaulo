@@ -1,0 +1,33 @@
+{
+
+  "flex-layout.row#container-precogarantido":{
+      "title": "Vitrene Preço Garantido",
+      "children":[
+        "flex-layout.row#container-title-precogarantido",
+        "flex-layout.row#shelf-fouritens-mob-for"
+      ],
+        "props":{
+        "blockClass": "container-vitrine-maisvendidos" 
+      }
+  },
+
+  "flex-layout.row#container-title-precogarantido":{
+    "title": "Title Preço garantido",
+    "children":[
+      "rich-text#title-precogarantido",
+      "link#vertudo"
+    ],
+      "props":{
+      "blockClass": "container-title-precogarantido" 
+    }
+  },
+
+  "rich-text#title-precogarantido": {
+      "props": {
+      "title":"Titulo - Vitrine Preço Garantido",
+      "text":"Bombas de Incêndio Melhor Preço Garantido",
+      "blockClass": "text-precogarantido"
+    }
+  }
+
+}

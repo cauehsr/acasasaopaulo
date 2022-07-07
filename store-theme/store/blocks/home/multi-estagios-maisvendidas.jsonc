@@ -1,0 +1,42 @@
+{
+
+  "flex-layout.row#estagios-maisvendidas":{
+      "title": "Vitrene Multi Estagios",
+      "children":[
+        "flex-layout.row#container-title-multi-estagios",
+        "flex-layout.row#shelf-fouritens-mob-for"
+      ],
+        "props":{
+        "blockClass": "container-vitrine-maisvendidos" 
+      }
+  },
+
+  "flex-layout.row#container-title-multi-estagios":{
+    "title": "Title Multi Estagios",
+    "children":[
+      "rich-text#text-multi-estagios-mais-vendidas",
+      "link#vertudo"
+    ],
+      "props":{
+      "blockClass": "container-title-multi-estagios" 
+    }
+  },
+
+  "rich-text#text-multi-estagios-mais-vendidas": {
+      "props": {
+      "title":"Titulo - Vitrine Multi Estagios",
+      "text":"Schneider e Thebe Multi Estagios Mais Vendidas",
+      "blockClass": "text-multi-estagios-mais-vendidas"
+    }
+  },
+
+  "link#vertudo":{
+    "props": {
+      "title":"botao - ver tudo",
+      "href": "/",
+      "label": "Ver tudo",
+      "blockClass":"link-vertudo"
+    }
+  }
+
+}

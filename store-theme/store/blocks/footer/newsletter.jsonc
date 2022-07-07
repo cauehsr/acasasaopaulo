@@ -1,0 +1,69 @@
+{
+  
+  "flex-layout.row#container-newsletter-principal":{
+    "title":"Newsletter",
+      "children": [
+        "flex-layout.row#news-top",
+        "flex-layout.row#news-bottom"
+
+      ],
+      "props": {
+        "blockClass": "container-newsletter"
+      }
+  },
+
+  "flex-layout.row#news-top":{
+    "title":"newsletter title",
+      "children": [
+        "rich-text#title-newsletter",
+        "rich-text#msg-newsletter"
+      ],
+      "props": {
+        "blockClass": "news-top"
+      }
+  },
+
+  "rich-text#title-newsletter":{
+    "props": {
+        "title":"title- Newsletter",
+        "text":"ASSINE NOSSA NEWSLETTER",
+        "blockClass": "title-newsletter"
+    }
+  },
+
+  "rich-text#msg-newsletter":{
+    "props": {
+        "title":"Msg - Newsletter",
+        "text":"Fique por dentro de todas as novidades, lançamentos e promoções da <span class='vtex-bold'> Casa São Paulo </span>",
+        "blockClass": "msg-newsletter"
+    }
+  },
+
+  "flex-layout.row#news-bottom":{
+    "title":"newsletter title",
+      "children": [
+        "newsletter#input-name",
+        "newsletter#input-email"
+      ],
+      "props": {
+        "blockClass": "news-bottom"
+      }
+  },
+
+  "newsletter#input-name": {
+    "props": {
+    "label": " ",
+    "placeholder": "Digite seu nome",
+    "blockClass": "name-input"
+    }
+  },
+
+  "newsletter#input-email": {
+    "props": {
+    "label": " ",
+    "placeholder": "Digite seu e-mail",
+    "blockClass": "email-input"
+    }
+  }
+
+}

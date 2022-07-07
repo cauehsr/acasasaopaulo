@@ -1,0 +1,139 @@
+{
+
+  "flex-layout.row#container-nav-menu":{
+    "title":"Nav Menu",
+    "children":[
+      "flex-layout.col#content-left",
+      "flex-layout.col#content-center",
+      "flex-layout.col#content-right"
+
+    ],
+    "props":{
+      "blockClass": "container-navMenu"
+    }
+  },
+
+  "flex-layout.col#content-left":{
+    "children":[
+      "flex-layout.col#box-logocasaSP"
+    ],
+    "props":{
+      "blockClass":"box-content-left"
+    }
+  }, 
+  
+  "flex-layout.col#box-logocasaSP":{
+    "title":"Box Logo",
+    "children":[
+      "logo#casaSP"
+    ],
+    "props":{
+      "blockClass": "box-logocasaSP"
+    }
+  },
+
+  "logo#casaSP":{
+    "props": {
+      "title": "Logotipo Casa São Paulo",
+      "href": "/",
+      "url": "assets/images/LogoCasaSP.png",
+      "max-width": "220px",
+      "height": "60px",
+      "blockClass":"logo-casaSP"
+    }
+  },
+
+  "flex-layout.col#content-center":{
+    "children":[
+      "flex-layout.col#search-bar"
+    ],
+    "props":{
+      "blockClass":"box-content-center"
+    }
+  }, 
+
+  "flex-layout.col#search-bar":{
+    "title": "Barra de Pesquisa",
+    "children":[
+      "search-bar"
+    ],
+    "props":{
+      "blockClass":"container-search-bar"
+    }
+  },  
+  
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "placeholder": "O que você está procurando?",
+      "openAutocompleteOnFocus": true
+    }
+  },
+
+  "flex-layout.col#content-right":{
+    "children":[
+      "flex-layout.col#televendas",
+      "flex-layout.col#container-login",
+      "flex-layout.col#container-minicart"
+    ],
+    "props":{
+      "blockClass":"box-content-right"
+    }
+  }, 
+
+  "flex-layout.col#televendas":{
+    "children":[
+      "rich-text#text-televendas"
+    ],
+    "props":{
+      "blockClass":"box-televendas"
+    }
+  },  
+  
+  "rich-text#text-televendas":{
+    "props": {
+      "title":"Texto - televendas",
+      "text":"Televendas <span class='vtex-bold'> <br> 4000-2440</span>",
+      "blockClass": "text-televendas"
+    }
+  },
+
+  "flex-layout.col#container-login":{
+    "children":[
+      "login"
+    ],
+    "props":{
+      "blockClass":"container-login"
+    }
+  },
+
+  "login": {
+    "props": {
+        "title":"Titulo - login",
+        "width": "auto",
+        "showIconProfile": false,
+        "iconLabel": "Olá, Visitante",
+        "blockClass": "header-actions-login",
+        "accountOptionLinks": [
+            {
+                "label": "Olá, Visitante",
+                "path": "/account"
+            },
+            {
+                "label": "Meus pedidos",
+                "path": "/account#/orders"
+            }
+        ]
+    }
+  },
+
+  "flex-layout.col#container-minicart":{
+    "children":[
+      "minicart.v2"
+    ],
+    "props":{
+      "blockClass":"container-minicart"
+    }
+  }
+ 
+}

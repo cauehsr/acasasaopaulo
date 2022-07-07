@@ -1,0 +1,69 @@
+{
+  
+  "flex-layout.row#container-topbar":{
+    "title":"Top Bar",
+      "children": [
+        "flex-layout.col#box-texto-juros",
+        "flex-layout.col#box-desconto-pix",
+        "flex-layout.col#box-maior-loja"
+      ],
+      "props": {
+        "blockClass": "container-topBar"
+      }
+  },
+
+  "flex-layout.col#box-texto-juros":{
+    "title":"Juros",
+      "children": [
+        "rich-text#juros"
+      ],
+      "props": {
+        "blockClass": "box-texto-juros"
+      }
+  },
+
+  "rich-text#juros":{
+    "props": {
+      "title":"Texto - Juros",
+      "text":"Em até 12 x <span class='vtex-bold'>sem juros </span>",
+      "blockClass": "topBar-text-juros"
+    }
+  },
+
+  "flex-layout.col#box-desconto-pix":{
+    "title":"Desconto",
+      "children": [
+        "rich-text#desconto-pix"
+      ],
+      "props": {
+        "blockClass": "box-desconto-pix"
+      }
+  },
+  
+  "rich-text#desconto-pix":{
+    "props": {
+      "title":"Texto - desconto",
+      "text":"10% de desconto<span class='vtex-bold'> boleto ou PIX</span>",
+      "blockClass": "topBar-text-desconto"
+    }
+  },
+
+  "flex-layout.col#box-maior-loja":{
+    "title":"Maior loja do Brasil",
+      "children": [
+        "rich-text#maior-loja"
+      ],
+      "props": {
+        "blockClass": "box-maior-loja"
+      }
+  },
+
+  "rich-text#maior-loja":{
+    "props": {
+      "title":"Texto - Desde 1974",
+      "text":"Desde  1974 A<span class='vtex-bold'> Maior Loja do Brasil</span>",
+      "blockClass": "topBar-text-maiorLoja"
+    }
+  }
+
+}

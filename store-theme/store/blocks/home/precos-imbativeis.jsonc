@@ -1,0 +1,43 @@
+{
+
+  "flex-layout.row#container-precos-imbativeis":{
+      "title": "Vitrene Preços imbativeis",
+      "children":[
+        "flex-layout.row#container-title-precos-imbativeis",
+        "flex-layout.row#shelf-fouritens-mob-for"
+       
+      ],
+        "props":{
+        "blockClass": "container-vitrine-maisvendidos" 
+      }
+  },
+
+  "flex-layout.row#container-title-precos-imbativeis":{
+    "title": "Title Precos imbativeis",
+    "children":[
+      "rich-text#title-precos-imbativeis",
+      "link#vertudo"
+    ],
+      "props":{
+      "blockClass": "container-title-precos-imbativeis" 
+    }
+  },
+
+  "rich-text#title-precos-imbativeis": {
+      "props": {
+      "title":"Titulo - Vitrine Preços imbativeis",
+      "text":"Bombas A Preço imbatíveis",
+      "blockClass": "text-precos-imbativeis"
+    }
+  },
+
+  "link#vertudo":{
+    "props": {
+      "title":"botao - ver tudo",
+      "href": "/",
+      "label": "Ver tudo",
+      "blockClass":"link-vertudo"
+    }
+  }
+
+}

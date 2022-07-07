@@ -1,0 +1,33 @@
+{
+
+  "flex-layout.row#container-destaque":{
+      "title": "Vitrene Destaques",
+      "children":[
+        "flex-layout.row#container-title-destaque",
+        "flex-layout.row#shelf-fouritens"
+
+      ],
+        "props":{
+        "blockClass": "container-vitrine-destaque" 
+      }
+  },
+
+  "flex-layout.row#container-title-destaque":{
+    "title": "Title Destaques",
+    "children":[
+      "rich-text#title-destaque"
+    ],
+      "props":{
+      "blockClass": "container-title-destaque" 
+    }
+  },
+
+  "rich-text#title-destaque": {
+      "props": {
+      "title":"Titulo - Vitrine Destaques",
+      "text":"Produtos em Destaque",
+      "blockClass": "text-destaque"
+    }
+  }
+
+}
