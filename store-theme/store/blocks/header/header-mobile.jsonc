@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#mobile": {
+        "children": [
+            "drawer",
+            "logo#casaSP-mob",
+            "flex-layout.col#content-right"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "fullWidth": true,
+            "blockClass": "container-main"
+        }
+    },
+    "logo#casaSP-mob": {
+        "props": {
+            "title": "Logotipo Casa São Paulo",
+            "href": "/",
+            "url": "assets/images/LogoCasaSP.png",
+            "width": "135px",
+            "height": "40px",
+            "blockClass": "logo-casaSP"
+        }
+    },
+    "flex-layout.row#search-bar-mobile":{
+        "title": "Barra de Pesquisa",
+        "children":[
+          "search-bar"
+        ],
+        "props":{
+          "blockClass":"container-search-bar"
+        }
+      }
+    // "flex-layout.row#search-bar-mob": {
+    //     "children": [
+    //         "flex-layout.col#search-bar"
+    //     ],
+    //     "props": {
+    //         "preventHorizontalStretch": true,
+    //         "preserveLayoutOnMobile": true,
+    //         "colSizing": "auto",
+    //         "fullWidth": true,
+    //         "blockClass": "container-main"
+    //     }
+    // }
+}

@@ -5,21 +5,18 @@
             "header-layout.mobile"
         ]
     },
-    
     "header.full": {
         "blocks": [
             "header-layout.desktop",
             "header-layout.mobile"
         ]
     },
-
     "header-layout.desktop": {
         "children": [
             "global-css",
             "sticky-layout#desktop"
         ]
     },
-
     "sticky-layout#desktop": {
         "children": [
             "flex-layout.row#container-topbar",
@@ -27,11 +24,20 @@
             "vtex.menu@2.x:menu#amazing-menu"
         ]
     },
-
     "header-layout.mobile": {
         "children": [
-            "slider-layout#container-topbar-mobile",
+            "sticky-layout#mobile",
             "global-css"
         ]
+    },
+    "sticky-layout#mobile": {
+        "children": [
+            "slider-layout#container-topbar-mobile",
+            "flex-layout.row#mobile",
+            "flex-layout.row#search-bar-mobile"
+        ],
+        "props": {
+            "blockClass": "headerMobile"
+        }
     }
 }
