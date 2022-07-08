@@ -1,0 +1,358 @@
+{
+    "flex-layout.row#branchDepartmentAll":{
+        "children":[
+            "link#link-branchDepartment1",
+            "link#link-branchDepartment2",
+            "link#link-branchDepartment3",
+            "link#link-branchDepartment4",
+            "link#link-branchDepartment5",
+            "link#link-branchDepartment6",
+            "link#link-branchDepartment7",
+            "link#link-branchDepartment8",
+            "link#link-branchDepartment9",
+            "link#link-branchDepartment10"
+        ],
+        "props": {
+            "blockClass": "branchDepartmentAll"
+        }
+    },
+
+    "link#link-branchDepartment1": {
+		"children": [
+			"flex-layout.row#branchDepartment1",
+            "rich-text#branchDepartment1"
+		],
+		"props": {
+			"href": "/auto-aspirante"
+		}
+	},
+	
+    "flex-layout.row#branchDepartment1":{
+        "children":[
+            "image#branchDepartment1"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+
+	"image#branchDepartment1": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment1.svg?v=1",
+			"alt": "Auto Aspirante"
+		}
+	},
+
+    "rich-text#branchDepartment1": {
+        "props": {
+          "text": "Auto Aspirante",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment2": {
+		"children": [
+			"flex-layout.row#branchDepartment2",
+            "rich-text#branchDepartment2"
+		],
+		"props": {
+			"href": "/centrifuga"
+		}
+	},
+	
+    "flex-layout.row#branchDepartment2":{
+        "children":[
+            "image#branchDepartment2"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+
+	"image#branchDepartment2": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment2.svg",
+			"alt": "Centrifuga"
+		}
+	},
+
+    "rich-text#branchDepartment2": {
+        "props": {
+          "text": "Centrifuga",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment3": {
+		"children": [
+			"flex-layout.row#branchDepartment3",
+            "rich-text#branchDepartment3"
+		],
+		"props": {
+			"href": "/multi-estagio"
+		}
+	},
+	
+    "flex-layout.row#branchDepartment3":{
+        "children":[
+            "image#branchDepartment3"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+
+	"image#branchDepartment3": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment3.svg",
+			"alt": "Multi Estágio"
+		}
+	},
+
+    "rich-text#branchDepartment3": {
+        "props": {
+          "text": "Multi Estágio",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment4": {
+		"children": [
+			"flex-layout.row#branchDepartment4",
+            "rich-text#branchDepartment4"
+		],
+		"props": {
+			"href": "/drenagem"
+		}
+	},
+	
+    "flex-layout.row#branchDepartment4":{
+        "children":[
+            "image#branchDepartment4"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+
+	"image#branchDepartment4": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment4.svg",
+			"alt": "Drenagem"
+		}
+	},
+
+    "rich-text#branchDepartment4": {
+        "props": {
+          "text": "Drenagem",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment5": {
+		"children": [
+			"flex-layout.row#branchDepartment5",
+            "rich-text#branchDepartment5"
+		],
+		"props": {
+			"href": "/incendio"
+		}
+	},
+
+    "flex-layout.row#branchDepartment5":{
+        "children":[
+            "image#branchDepartment5"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+	
+	"image#branchDepartment5": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment5.svg",
+			"alt": "Incêndio"
+		}
+	},
+
+    "rich-text#branchDepartment5": {
+        "props": {
+          "text": "Incêndio",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment6": {
+		"children": [
+			"flex-layout.row#branchDepartment6",
+            "rich-text#branchDepartment6"
+		],
+		"props": {
+			"href": "/submersa"
+		}
+	},
+
+    "flex-layout.row#branchDepartment6":{
+        "children":[
+            "image#branchDepartment6"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+	
+	"image#branchDepartment6": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment6.svg",
+			"alt": "Submersa"
+		}
+	},
+
+    "rich-text#branchDepartment6": {
+        "props": {
+          "text": "Submersa",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment7": {
+		"children": [
+			"flex-layout.row#branchDepartment7",
+            "rich-text#branchDepartment7"
+		],
+		"props": {
+			"href": "/sapo"
+		}
+	},
+	
+    "flex-layout.row#branchDepartment7":{
+        "children":[
+            "image#branchDepartment7"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+
+	"image#branchDepartment7": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment7.svg",
+			"alt": "Sapo"
+		}
+	},
+
+    "rich-text#branchDepartment7": {
+        "props": {
+          "text": "Sapo",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment8": {
+		"children": [
+			"flex-layout.row#branchDepartment8",
+            "rich-text#branchDepartment8"
+		],
+		"props": {
+			"href": "/piscinas"
+		}
+	},
+
+    "flex-layout.row#branchDepartment8":{
+        "children":[
+            "image#branchDepartment8"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+    
+	"image#branchDepartment8": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment8.svg",
+			"alt": "Piscinas"
+		}
+	},
+
+    "rich-text#branchDepartment8": {
+        "props": {
+          "text": "Piscinas",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment9": {
+		"children": [
+			"flex-layout.row#branchDepartment9",
+            "rich-text#branchDepartment9"
+		],
+		"props": {
+			"href": "/pressurizadores"
+		}
+	},
+
+    "flex-layout.row#branchDepartment9":{
+        "children":[
+            "image#branchDepartment9"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+    
+	"image#branchDepartment9": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment9.svg",
+			"alt": "Pressurizadores"
+		}
+	},
+
+    "rich-text#branchDepartment9": {
+        "props": {
+          "text": "Pressurizadores",
+          "blockClass": "branchDepartmentText"
+        }
+    },
+
+
+    "link#link-branchDepartment10": {
+		"children": [
+			"flex-layout.row#branchDepartment10",
+            "rich-text#branchDepartment10"
+		],
+		"props": {
+			"href": "/acessoriosepecas"
+		}
+	},
+
+    "flex-layout.row#branchDepartment10":{
+        "children":[
+            "image#branchDepartment10"
+        ],
+        "props": {
+            "blockClass": "image-branchDepartment"
+        }
+    },
+	
+	"image#branchDepartment10": {
+		"props": {
+			"src": "/arquivos/icon-branchDepartment10.svg",
+			"alt": "Acessórios e Peças"
+		}
+	},
+
+    "rich-text#branchDepartment10": {
+        "props": {
+          "text": "Acessórios e Peças",
+          "blockClass": "branchDepartmentText"
+        }
+    }
+}

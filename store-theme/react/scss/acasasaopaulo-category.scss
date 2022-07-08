@@ -1,26 +1,26 @@
-// PÁGINA DE DEPARTAMENTO/CATEGORIA/BUSCA MOBILE
+// PÁGINA DE DEPARTAMENTO/CATEGORIA/BUSCA/MARCA desk
 @media (min-width: 1025px) {
     .render-route-store-search-department,
     .render-route-store-search-category,
     .render-route-store-search-subcategory,
     .render-route-store-search-brand,
     .render-route-store-search{
-         & .vtex-flex-layout-0-x-flexRow--order-by{
+        & .vtex-flex-layout-0-x-flexRow--order-by{
             & .vtex-flex-layout-0-x-flexRowContent--order-by{
                 justify-content: space-between;
-
+                
                 & > .vtex-flex-layout-0-x-stretchChildrenWidth{
                     width: auto!important;
                 }
             }
         }
-
+        
         .vtex-flex-layout-0-x-flexRow--row-countperpageAndtitle{
             .vtex-flex-layout-0-x-flexRowContent--row-countperpageAndtitle{
                 .vtex-flex-layout-0-x-stretchChildrenWidth{
                     margin-right: 35px;
                     justify-content: flex-start;
-
+                    
                     .vtex-search-result-3-x-showingProducts{
                         width: auto!important;
                     }
@@ -30,6 +30,7 @@
     }
 }
 
+// PÁGINA DE DEPARTAMENTO/CATEGORIA/BUSCA/MARCA MOBILE
 @media (max-width: 1024px) {
     //filtro aberto
     .vtex-search-result-3-x-sidebar{
@@ -127,13 +128,12 @@
                 }
             }
         }
-    }
-    
-    
+    }    
     
     .render-route-store-search-department,
     .render-route-store-search-category,
     .render-route-store-search-subcategory,
+    .render-route-store-search-brand,
     .render-route-store-search{
         overflow: hidden;
         
@@ -251,6 +251,8 @@
                                     height: unset;
                                     
                                     & .vtex-search-result-3-x-filterPopupTitle{
+                                        display: flex;
+                                        align-items: center;
                                         text-decoration: none;
                                         font-size: 14px;
                                         font-weight: 700;
@@ -286,6 +288,7 @@
                                 padding: unset;
                                 
                                 & .vtex-search-result-3-x-filterPopupTitle{
+                                    white-space: nowrap;
                                     display: flex;
                                     align-items: center;
                                     text-decoration: none;
@@ -335,6 +338,91 @@
                 & > .vtex-product-summary-2-x-container--summary-shelf{
                     
                 }   
+            }
+        }
+    }
+}
+
+
+
+//ambos
+//departamentos nas marcas
+.vtex-flex-layout-0-x-flexRow--branchDepartmentAll{
+    display: none;
+}
+.render-route-store-search-brand{
+    .vtex-flex-layout-0-x-flexRow--branchDepartmentAll{
+        padding: 16px 0;
+        display: flex!important;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+
+        @media (max-width: 1024px) {
+            overflow-x: scroll;
+        }
+        
+        .vtex-store-components-3-x-container{
+            width: 100%;
+            .vtex-flex-layout-0-x-flexRowContent--branchDepartmentAll{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                & > .vtex-flex-layout-0-x-stretchChildrenWidth{
+                    width: 102px!important;
+
+                    @media (max-width: 1024px) {
+                        &:first-of-type{
+                            margin-left: 12px;
+                        }
+                        margin-right: 8px;
+                    }
+                    
+                    .vtex-store-link-0-x-link{                        
+                        text-decoration: none;
+                        
+                        .vtex-store-link-0-x-childrenContainer{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            
+                            & .vtex-flex-layout-0-x-flexRow--image-branchDepartment{
+                                margin-bottom: 12px;
+                                
+                                & .vtex-flex-layout-0-x-flexRowContent--image-branchDepartment{
+                                    & > .vtex-flex-layout-0-x-stretchChildrenWidth{
+                                        background: #FFFFFF;
+                                        border: 0.2px solid #EDEDED;
+                                        border-radius: 5px;
+                                        width: 100px!important;
+                                        height: 100px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        
+                                        & .vtex-store-components-3-x-imageElement{
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            & .vtex-rich-text-0-x-container--branchDepartmentText{
+                                & .vtex-rich-text-0-x-wrapper--branchDepartmentText{
+                                    & .vtex-rich-text-0-x-paragraph--branchDepartmentText{
+                                        white-space: nowrap;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        line-height: 16px;
+                                        color: #3A3A3A;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

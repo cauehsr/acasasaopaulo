@@ -1,14 +1,13 @@
 {
-
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
-      "flex-layout.row#confira1"
+      "flex-layout.row#qvvtbm1"
     ]
   },
-
+  
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "blockClass": "product-container-breadcrumb"
@@ -17,7 +16,7 @@
       "breadcrumb"
     ]
   },
-
+  
   "flex-layout.row#description": {
     "props": {
       "blockClass": "product-container-description"
@@ -26,13 +25,13 @@
       "product-description"
     ]
   },
-
+  
   "product-description": {
     "props": {
       "collapseContent": false
     }
   },
-
+  
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
@@ -47,7 +46,7 @@
       "flex-layout.col#right-col"
     ]
   },
-
+  
   "stack-layout": {
     "props": {
       "blockClass": "product"
@@ -56,7 +55,7 @@
       "flex-layout.row#product-image"
     ]
   },
-
+  
   "product-specification-badges": {
     "props": {
       "specificationGroupName": "Group",
@@ -65,7 +64,7 @@
       "displayValue": "SPECIFICATION_NAME"
     }
   },
-
+  
   "flex-layout.col#stack": {
     "children": [
       "stack-layout"
@@ -75,7 +74,7 @@
       "rowGap": 0
     }
   },
-
+  
   "flex-layout.row#product-image": {
     "props": {
       "blockClass": "product-thumbs"
@@ -84,7 +83,7 @@
       "product-images"
     ]
   },
-
+  
   "product-images": {
     "props": {
       "blockClass": "product-thumbs",
@@ -97,7 +96,7 @@
       "showBadge": true
     }
   },
-
+  
   "flex-layout.col#rating": {
     "children": [
       "product-rating-summary"
@@ -106,7 +105,7 @@
       "blockClass": "product-rating"
     }
   },
-
+  
   "flex-layout.col#right-col": {
     "props": {
       "blockClass": "product-details",
@@ -119,11 +118,11 @@
       "flex-layout.row#product-quantity-shipping",
       "flex-layout.row#product-price-container",
       "flex-layout.col#button-add-icon",
+      "rich-text#produtovendidoeentregue",
       "flex-layout.row#product-cep"
-      
     ]
   },
-
+  
   "flex-layout.row#Itens-top": {
     "children": [
       "product-identifier.product",
@@ -133,7 +132,7 @@
       "blockClass": "itens-top"
     }
   },
-
+  
   "flex-layout.col#wishlist-shelf": {
     "props": {
       "blockClass": "wishlist-shelf"
@@ -142,7 +141,7 @@
       "flex-layout.col#button-add-icon"
     ]
   },
-
+  
   "flex-layout.col#button-add-icon": {
     "props": {
       "blockClass": "product_icon--products"
@@ -151,7 +150,14 @@
       "add-to-cart-button"
     ]
   },
-
+  
+  "rich-text#produtovendidoeentregue": {
+    "props": {
+      "text": "Este produto é vendido e entregue por **A Casa São Paulo**",
+      "blockClass": "produtovendidoeentregue"
+    }
+  },
+  
   "flex-layout.row#product-price-container": {
     "props": {
       "blockClass": "product-price__container"
@@ -162,7 +168,7 @@
       "product-installments"
     ]
   },
-
+  
   "product-price-savings#summary": {
     "props": {
       "markers": [
@@ -171,7 +177,7 @@
       "blockClass": "summary"
     }
   },
-
+  
   "flex-layout.row#product-cep": {
     "props": {
       "blockClass": "product-cep"
@@ -180,7 +186,7 @@
       "shipping-simulator"
     ]
   },
-
+  
   "flex-layout.row#product-quantity-shipping": {
     "props": {
       "blockClass": "product-quantity-shipping"
@@ -190,7 +196,7 @@
       "flex-layout.row#buy-button--minicart"
     ]
   },
-
+  
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3
@@ -199,7 +205,7 @@
       "vtex.store-components:product-name"
     ]
   },
-
+  
   "flex-layout.row#avaliacoes": {
     "children": [
       "product-reviews",
@@ -209,7 +215,7 @@
       "blockClass": "product-questions-and-answers"
     }
   },
-
+  
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
@@ -220,7 +226,7 @@
       "visibility": "always"
     }
   },
-
+  
   "flex-layout.row#containerButtons": {
     "props": {
       "blockClass": "product__container--products"
@@ -229,7 +235,7 @@
       "flex-layout.row#buy-button"
     ]
   },
-
+  
   "flex-layout.row#containerButtonsMobile": {
     "props": {
       "blockClass": "product__container--products-mobile"
@@ -238,7 +244,7 @@
       "flex-layout.row#buy-button"
     ]
   },
-
+  
   "flex-layout.row#buy-button--minicart": {
     "props": {
       "blockClass": "product-container-addtocart"
@@ -247,7 +253,7 @@
       "add-to-cart-button#checkout"
     ]
   },
-
+  
   "flex-layout.row#buy-button": {
     "props": {
       "blockClass": "product-container-addtocart-checkout"
@@ -256,52 +262,54 @@
       "add-to-cart-button"
     ]
   },
-
+  
   "add-to-cart-button#checkout": {
     "props": {
       "isOneClickBuy": true
     }
   },
-
-  "flex-layout.row#confira1": {
+  
+  "flex-layout.row#qvvtbm1": {
     "children": [
-      "rich-text#Confira",
-      "list-context.product-list#confira"
+      "rich-text#qvvtbm",
+      "link#vertudo4",
+      "list-context.product-list#qvvtbm"
     ],
     "props": {
-      "blockClass": "confira"
+      "blockClass": "qvvtbm"
     }
   },
-
-  // "link#vertudo4":{
-  //   "props": {
-  //     "title":"botao - ver tudo",
-  //     "href": "/",
-  //     "label": "Ver tudo",
-  //     "blockClass":"link-vertudo"
-  //   }
-  // },
-
-  "rich-text#Confira": {
+  
+  "link#vertudo4":{
     "props": {
-      "text": "Complete sua festa",
-      "blockClass": "confira"
+      "title":"botao - ver tudo",
+      "href": "/",
+      "label": "Ver tudo",
+      "blockClass":"link-vertudo"
     }
   },
-
-  "list-context.product-list#confira": {
+  
+  
+  "rich-text#qvvtbm": {
+    "props": {
+      "text": "Quem viu, viu também",
+      "blockClass": "qvvtbm"
+    }
+  },
+  
+  "list-context.product-list#qvvtbm": {
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#confira"
+      "slider-layout#qvvtbm"
     ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-
-  "slider-layout#confira": {
+  
+  "slider-layout#qvvtbm": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -314,7 +322,7 @@
       "showPaginationDots": "always"
     }
   },
-
+  
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "promotion"
@@ -336,5 +344,5 @@
       "message": "{highlightName}"
     }
   }
-
+  
 }
