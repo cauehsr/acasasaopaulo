@@ -30,6 +30,7 @@
 
     "header-layout.mobile": {
         "children": [
+            "slider-layout#container-topbar-mobile",
             "global-css"
         ]
     }

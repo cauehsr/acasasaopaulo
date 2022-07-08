@@ -64,6 +64,53 @@
       "text":"Desde  1974 A<span class='vtex-bold'> Maior Loja do Brasil</span>",
       "blockClass": "topBar-text-maiorLoja"
     }
-  }
+  },
 
+  "slider-layout#container-topbar-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "stripeSlider",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#juros-mobile",
+      "rich-text#desconto-pix-mobile",
+      "rich-text#maior-loja-mobile"
+    ]
+  },
+  "flex-layout.row#box-texto-juros":{
+    "title":"Top Bar",
+      "children": [
+        "flex-layout.col#box-texto-juros"
+      ],
+      "props": {
+        "blockClass": "container-topBar"
+      }
+  },
+  "rich-text#juros-mobile":{
+    "props": {
+      "title":"Texto - Juros",
+      "text":"Em até 12 x <span class='vtex-bold'>sem juros </span>",
+      "blockClass": "topBar-text-juros-mobile"
+    }
+  },
+  "rich-text#desconto-pix-mobile":{
+    "props": {
+      "title":"Texto - desconto",
+      "text":"10% de desconto<span class='vtex-bold'> boleto ou PIX</span>",
+      "blockClass": "topBar-text-desconto-mobile"
+    }
+  },
+  "rich-text#maior-loja-mobile":{
+    "props": {
+      "title":"Texto - Desde 1974",
+      "text":"Desde  1974 A<span class='vtex-bold'> Maior Loja do Brasil</span>",
+      "blockClass": "topBar-text-maiorLoja-mobile"
+    }
+  }
 }
