@@ -504,9 +504,6 @@
     text-align: center;
     margin-bottom: 10px;
   }
-  :global(.vtex-flex-layout-0-x-flexRow--container-bannermagazines) {
-    display: none;
-  }
   :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-maisvendidos)
   :global(.vtex-product-summary-2-x-container--summary-shelf) {
     height: 100%!important;
@@ -578,11 +575,6 @@
     width: 24px!important;
     height: 24px!important;
     padding-top: 8px;
-  }
-  :global(.vtex-product-summary-2-x-container--summary-shelf) {
-    max-width: 300px;
-    width: 260px;
-    height: 187px;
   }
   :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf) {
     left: inherit!important;

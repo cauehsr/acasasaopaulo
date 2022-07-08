@@ -1,0 +1,310 @@
+// PÁGINA DE DEPARTAMENTO/CATEGORIA/BUSCA MOBILE
+@media (max-width: 768px) {
+    //filtro aberto
+    .vtex-search-result-3-x-sidebar{
+        background: #fff;
+        
+        & .vtex-search-result-3-x-filterAccordionBreadcrumbs {
+            background-color: #fff;
+        }
+        
+        & .vtex-search-result-3-x-filterButtonsBox{
+            background-color: #fff;
+            height: auto;
+            padding: 25px 0;
+        }
+        
+        & .vtex-search-result-3-x-accordionFilterContainer{
+            padding: 10px 20px;
+            
+            & .vtex-search-result-3-x-accordionFilterItem{
+                padding-left: 24px;
+                padding-right: 21px;
+                border: 0.5px solid #919191;
+                border-radius: 5px;
+                
+                & .vtex-search-result-3-x-accordionFilterContent{
+                    & .vtex-search-result-3-x-accordionFilterItemTitle{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #3A3A3A;
+                    }
+                }
+            }
+        }
+        
+        & .vtex-search-result-3-x-filterClearButtonWrapper{
+            & > .vtex-button{
+                & > .vtex-button__label{
+                    font-size: 0;
+                    
+                    &::after{
+                        content: 'LIMPAR FILTROS';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 19px;
+                        color: #1F6591;
+                    }
+                }
+            }
+        }
+        
+        & .vtex-search-result-3-x-filterApplyButtonWrapper{
+            & > .vtex-button{
+                width: 172px;
+                height: 40px;
+                padding: unset!important;
+                background: #1F6591;
+                border-radius: 22px;
+                & > .vtex-button__label{
+                    font-size: 0;
+                    
+                    &::after{
+                        content: 'FILTRAR';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            
+        }
+        
+        & .vtex-search-result-3-x-filterTotalProducts{
+            display: none;
+        }
+    }
+    .ReactCollapse--collapse{
+        & .ReactCollapse--content{
+            & .pl8{
+                padding: unset;
+                & .vtex-search-result-3-x-accordionFilterOpen{
+                    padding: unset;
+                    padding-left: 20px;
+                    
+                    & .vtex-search-result-3-x-filterAccordionItemBox{
+                        border: none;
+                    }
+                }
+                & .vtex-search-result-3-x-accordionFilterItemOptions{
+                    padding: unset;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+    
+    
+    
+    .render-route-store-search-department,
+    .render-route-store-search-category,
+    .render-route-store-search-subcategory,
+    .render-route-store-search{
+        overflow: hidden;
+
+        .vtex-flex-layout-0-x-flexRowContent--banner-search{
+            position: relative;
+            
+            & > .vtex-flex-layout-0-x-stretchChildrenWidth{
+                &:first-of-type{
+                    
+                }
+                &:nth-of-type(2){
+                    position: absolute;
+                    left: 12px;
+                    top: 12px;
+                    
+                    & .vtex-flex-layout-0-x-flexColChild--breadcrumb{
+                        & > .vtex-flex-layout-0-x-flexRow{
+                            & > .vtex-flex-layout-0-x-flexRowContent{
+                                & > .vtex-flex-layout-0-x-stretchChildrenWidth{
+                                    width: auto!important;
+                                    
+                                    & .vtex-breadcrumb-1-x-container{
+                                        width: auto!important;
+                                        max-width: unset!important;
+                                        position: unset;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3){
+                    position: absolute;
+                    left: 12px;
+                    top: 84px;
+                    .vtex-flex-layout-0-x-flexRow--content-text-banner{
+                        padding-top: unset;
+                        justify-content: flex-start;
+                        
+                        & .vtex-flex-layout-0-x-flexRowContent--content-text-banner{
+                            width: 213px;
+                            gap: unset;
+                            height: unset;
+                            
+                            & > .vtex-flex-layout-0-x-stretchChildrenWidth{
+                                &:first-child{
+                                    margin-bottom: 16px;
+                                }
+                                
+                                & .vtex-rich-text-0-x-container--text-marca-search {
+                                    .vtex-rich-text-0-x-paragraph--text-marca-search{
+                                        font-style: normal;
+                                        font-weight: 300;
+                                        font-size: 12px;
+                                        line-height: 13px;
+                                        color: #F2F2F2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .vtex-flex-layout-0-x-flexRow--row-countperpageAndtitle{
+            margin-top: 24px;
+            margin-bottom: 16px;
+            
+            .vtex-search-result-3-x-showingProducts{
+                padding: unset;
+                
+                & > span{
+                    padding: unset;
+                    font-size: 0;
+                    
+                    &::before{
+                        content: 'Produtos encontrados: ';
+                        font-size: 14px;
+                        font-weight: normal;
+                        line-height: 20px;
+                        color: #3A3A3A;
+                    }
+                    
+                    & .vtex-search-result-3-x-showingProductsCount {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        color: #3A3A3A;
+                    }
+                }
+            }
+        }
+        
+        .vtex-flex-layout-0-x-flexRow--orderby{
+            margin-bottom: 32px;
+            
+            & .vtex-flex-layout-0-x-flexRowContent--orderby{
+                padding: 0 16px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                & .vtex-flex-layout-0-x-stretchChildrenWidth{
+                    width: unset!important;
+                    
+                    //filtro
+                    & .vtex-search-result-3-x-filters--layout {
+                        & .vtex-search-result-3-x-filters{
+                            & .vtex-search-result-3-x-filtersWrapperMobile{
+                                & .vtex-search-result-3-x-filterPopupButton{
+                                    border: solid 1px #3A3A3A;
+                                    border-radius: 18px;
+                                    padding: 6px 40px;
+                                    height: unset;
+                                    
+                                    & .vtex-search-result-3-x-filterPopupTitle{
+                                        text-decoration: none;
+                                        font-size: 14px;
+                                        font-weight: 700;
+                                        line-height: 24px;
+                                        color: #3A3A3A;
+                                        
+                                        &::after{
+                                            content: '';
+                                            margin-left: 9px;
+                                            width: 18px;
+                                            height: 12px;
+                                            display: inline-block;
+                                            vertical-align: middle;
+                                            background-image: url("data:image/svg+xml,%3Csvg width='18' height='12' viewBox='0 0 18 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 12H11V10H7V12ZM0 0V2H18V0H0ZM3 7H15V5H3V7Z' fill='%233A3A3A'/%3E%3C/svg%3E%0A");
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                        }
+                                    }
+                                    & .vtex-search-result-3-x-filterPopupArrowIcon{
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    //orderby
+                    & .vtex-search-result-3-x-orderBy--layout{
+                        & .vtex-search-result-3-x-orderByDropdown{
+                            & .vtex-search-result-3-x-orderByButton{
+                                display: flex;
+                                align-items: center;
+                                padding: unset;
+                                
+                                & .vtex-search-result-3-x-filterPopupTitle{
+                                    display: flex;
+                                    align-items: center;
+                                    text-decoration: none;
+                                    
+                                    & .vtex-search-result-3-x-orderByText {
+                                        display: block;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                        color: #3A3A3A;         
+                                        white-space: nowrap;                               
+                                        margin-right: 8px;
+                                    }
+                                }
+                                & .vtex-search-result-3-x-filterPopupArrowIcon {
+                                    margin-left: 5px;
+                                    padding: unset!important;
+                                    & > svg{
+                                        color: #1F6591;
+                                    }
+                                }
+                            }
+                            & .vtex-search-result-3-x-orderByOptionsContainer{
+                                & .vtex-search-result-3-x-orderByOptionItem{
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        #gallery-layout-container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            
+            & .vtex-search-result-3-x-galleryItem--grid{
+                max-width: 168px!important;
+                flex-basis: unset!important;
+                padding: unset!important;
+                margin: 12px 3.5px;
+                
+                & > .vtex-product-summary-2-x-container--summary-shelf{
+                    
+                }   
+            }
+        }
+    }
+}

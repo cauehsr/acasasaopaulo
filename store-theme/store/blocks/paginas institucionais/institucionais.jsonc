@@ -34,19 +34,7 @@
       "text": "Politica de privacidade",
       "blockClass": "title-pol-privacidade"
     }
-  },
-
-
-  // Breadcrumb institucional
-
-  "flex-layout.row#searchbread": {
-    "children": [
-      "breadcrumb.search"
-    ],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
   }
+
 
 }

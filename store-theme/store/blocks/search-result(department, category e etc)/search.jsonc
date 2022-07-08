@@ -6,7 +6,7 @@
     "props": {
       "blockClass": "e-search-result-layout",
       "context": {
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -21,7 +21,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -35,7 +35,7 @@
     "props": {
       "blockClass": "e-search-result-layout",
       "context": {
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -48,7 +48,7 @@
     ],
     "props": {
       "context": {
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -61,7 +61,7 @@
     ],
     "props": {
       "context": {
-        "maxItemsPerPage": 15,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -73,7 +73,6 @@
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
-
     ]
   },
 
@@ -93,8 +92,8 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#banner-search-mobile",
-      "flex-layout.row#orderBy",
       "flex-layout.row#countperpageAndtitle",
+      "flex-layout.row#orderBy",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore"
     ],
@@ -163,7 +162,6 @@
     "children": [
       "rich-text#title-marca-search",
       "rich-text#text-marca-search"
-
     ],
     "props": {
       "blockClass": "content-text-banner"
@@ -173,6 +171,7 @@
   "rich-text#title-marca-search": {
     "props": {
       "title": "Text - Title Search",
+      "text": "Text - Title Search",
       "blockClass": "title-marca-search"
     }
   },
@@ -190,7 +189,8 @@
   "flex-layout.row#banner-search-mobile": {
     "children": [
       "image#banner-search-mobile",
-      "flex-layout.col#breadcrumb"
+      "flex-layout.col#breadcrumb",
+      "flex-layout.row#content-text-banner"
     ],
     "props": {
       "blockClass": "banner-search"
@@ -206,8 +206,7 @@
 
   "image#banner-search-mobile": {
     "props": {
-      "src": "assets/images/banner-main-search.png",
-      "maxWidth": 1280
+      "src": "assets/images/banner-main-searchMobile.png"
     }
   },
 
@@ -486,6 +485,12 @@
   },
 
   "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+
+  "breadcrumb.search": {
     "props": {
       "showOnMobile": true
     }
