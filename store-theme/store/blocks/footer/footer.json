@@ -18,7 +18,11 @@
 
     "footer-layout.mobile": {
         "children": [
-
+            "flex-layout.row#container-newsletter-principal",
+            "flex-layout.row#container-links",
+            "flex-layout.row#container-principal-footer",
+            "flex-layout.row#container-termosmaisbuscados-mobile",
+            "flex-layout.row#container-copyright"
         ],
         "props": {
             "blockClass": "footer-mobile"

@@ -1,0 +1,64 @@
+{
+    "drawer": {
+      "blocks": [
+        "drawer-header#drawer"
+      ],
+      "children": [
+        "flex-layout.row#drawer"
+      ]
+    },
+    "drawer-header#drawer": {
+      "children": [
+        "logo#casaSP-mob",
+        "drawer-close-button"
+      ]
+    },
+    "menu-department": {
+        "children": [
+            "drawer-close-button",
+            "image#marca-ebara",
+            "image#marca-thebe",
+            "image#marca-famac",
+            "image#marca-schneider",
+            "image#marca-bombas-leao",
+            "image#marca-vibravert",
+            "image#marca-lepono",
+            "image#marca-syllent",
+            "image#marca-megapress"
+        ]
+    },
+    "rich-text#drawer": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "MENU",
+        "blockClass": "drawer"
+      }
+    },
+    "flex-layout.row#drawer": {
+      "children": [
+        "flex-layout.col#drawer"
+      ],
+      "props": {
+        "fullWidth": true,
+        "blockClass": "drawer"
+      }
+    },
+    "flex-layout.col#drawer": {
+      "children": [
+        "flex-layout.col#drawerContainer"
+      ],
+      "props": {
+        "blockClass": "drawer"
+      }
+    },
+    "flex-layout.col#drawerContainer": {
+      "children": [
+        "menu-department"
+        //"lojamm-text-city-mobile"
+      ],
+      "props": {
+        "blockClass": "drawerContainer"
+      }
+    }
+  }

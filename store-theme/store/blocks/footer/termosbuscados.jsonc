@@ -13,6 +13,22 @@
       "blockClass": "container-termos-buscados" 
     }
   },
+  "flex-layout.row#container-termosmaisbuscados-mobile":{
+    "title": "Container Termos Mais Buscados Mobile",
+    "children":[
+      "flex-layout.col#container-title",
+      "link#termos-aparador",
+      "link#termos-schneider",
+      "link#termos-bc925",
+      "link#termos-drenagem",
+      "link#termos-autoaspirante",
+      "link#termos-caneta",
+      "link#termos-centrifuga"
+    ],
+      "props":{
+      "blockClass": "container-termos-buscados" 
+    }
+  },
 
   "flex-layout.col#container-title":{
     "title": "Container Title",

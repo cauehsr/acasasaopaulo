@@ -333,6 +333,11 @@
       "src": "assets/images/lets-encrypt.png",
       "blockClass": "logo-letsencrypt"
     }
+  },
+  "image#lojaconfiavel":{
+    "props": {
+      "src": "assets/images/lojaconfiavel.png",
+      "blockClass": "lojaconfiavel"
+    }
   }
-
 }

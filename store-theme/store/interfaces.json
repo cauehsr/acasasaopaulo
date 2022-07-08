@@ -1,6 +1,9 @@
 {
     "global-css": {
         "component": "GlobalCSS"
+    },
+    "menu-department": {
+        "component": "MenuDepartment",
+        "composition": "children"
     }
-
 }

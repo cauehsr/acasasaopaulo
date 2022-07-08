@@ -200,6 +200,16 @@
   align-items: center;
 }
 @media (max-width: 768px) {
+  :global(.vtex-store-drawer-0-x-drawerHeader){
+    justify-content: space-between;
+    margin-top: 17px;
+    border-bottom: solid 1px #C9C9C9;
+  }
+  :global(.vtex-store-drawer-0-x-drawerHeader) :global(.vtex-store-components-3-x-logoLink--logo-casaSP){
+    transform: translateX(-59%);
+    position: relative;
+    left: 50%;
+  }
   .flexRowContent--container-search-bar{
     background: #fff;
   }
