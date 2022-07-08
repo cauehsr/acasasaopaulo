@@ -6,7 +6,7 @@
     "props": {
       "blockClass": "e-search-result-layout",
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -21,7 +21,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -35,7 +35,7 @@
     "props": {
       "blockClass": "e-search-result-layout",
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -48,7 +48,7 @@
     ],
     "props": {
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -61,7 +61,7 @@
     ],
     "props": {
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -79,6 +79,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#banner-search",
+      "flex-layout.row#branchDepartmentAll",
       "flex-layout.row#order-by",
       "flex-layout.row#result"
     ],
@@ -92,6 +93,7 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#banner-search-mobile",
+      "flex-layout.row#branchDepartmentAll",
       "flex-layout.row#countperpageAndtitle",
       "flex-layout.row#orderBy",
       "flex-layout.row#contentmobile",
