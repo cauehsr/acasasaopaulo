@@ -268,61 +268,7 @@
       "isOneClickBuy": true
     }
   },
-  
-  "flex-layout.row#qvvtbm1": {
-    "children": [
-      "rich-text#qvvtbm",
-      "link#vertudo4",
-      "list-context.product-list#qvvtbm"
-    ],
-    "props": {
-      "blockClass": "qvvtbm"
-    }
-  },
-  
-  "link#vertudo4":{
-    "props": {
-      "title":"botao - ver tudo",
-      "href": "/",
-      "label": "Ver tudo",
-      "blockClass":"link-vertudo"
-    }
-  },
-  
-  
-  "rich-text#qvvtbm": {
-    "props": {
-      "text": "Quem viu, viu também",
-      "blockClass": "qvvtbm"
-    }
-  },
-  
-  "list-context.product-list#qvvtbm": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#qvvtbm"
-    ],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  
-  "slider-layout#qvvtbm": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 2,
-        "phone": 2
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf",
-      "showPaginationDots": "always"
-    }
-  },
-  
+    
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "promotion"
@@ -343,6 +289,71 @@
     "props": {
       "message": "{highlightName}"
     }
-  }
+  },
   
+  
+  
+  "flex-layout.row#qvvtbm1":{
+    "title": "Quem viu, viu também",
+    "children":[
+      "rich-text#title-qvvtbm1",
+      "link#vertudo4",
+      "flex-layout.row#items-qvvtbm1"
+    ],
+    "props":{
+      "blockClass": "container-vitrine-qvvtbm" 
+    }
+  },
+  
+  "rich-text#title-qvvtbm1": {
+    "props": {
+      "title":"Titulo - Vitrine Quem viu, viu também",
+      "text":"Quem viu, viu também",
+      "blockClass": "qvvtbm"
+    }
+  },
+
+  "link#vertudo4":{
+    "props": {
+      "title":"botao - ver tudo",
+      "href": "/",
+      "label": "Ver tudo",
+      "blockClass":"link-vertudo"
+    }
+  },
+  
+  "flex-layout.row#items-qvvtbm1": {
+    "children": [
+      "list-context.product-list#highlight-shelf-qvvtbm1"
+    ],
+    "props": {
+      "blockClass": "shelf"
+    }
+  },
+  
+  "list-context.product-list#highlight-shelf-qvvtbm1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#highlight-shelf-qvvtbm1"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  
+  "slider-layout#highlight-shelf-qvvtbm1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showPaginationDots": "false"
+    }
+  }
 }

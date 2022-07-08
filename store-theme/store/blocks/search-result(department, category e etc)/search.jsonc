@@ -162,19 +162,11 @@
 
   "flex-layout.row#content-text-banner":{
     "children": [
-      "rich-text#title-marca-search",
+      "search-title.v2",
       "rich-text#text-marca-search"
     ],
     "props": {
       "blockClass": "content-text-banner"
-    }
-  },
-
-  "rich-text#title-marca-search": {
-    "props": {
-      "title": "Text - Title Search",
-      "text": "Text - Title Search",
-      "blockClass": "title-marca-search"
     }
   },
 

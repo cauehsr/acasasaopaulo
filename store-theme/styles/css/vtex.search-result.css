@@ -4,7 +4,13 @@
 }
 
 :global(.vtex-search-result-3-x-galleryTitle--layout ){
-  display: none;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  margin: unset;
 }
 
 :global(.vtex-search-result-3-x-container--layout)

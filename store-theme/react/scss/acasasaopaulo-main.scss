@@ -20,9 +20,9 @@
   }
 }
 
-.vtex-store-components-3-x-imageElement{
-  max-width: 100% !important;
-}
+// .vtex-store-components-3-x-imageElement{
+//   max-width: 100% !important;
+// }
 
 .vtex-button__label{
   padding-top: 0 !important;
@@ -102,8 +102,16 @@
   content: 'A Casa São Paulo';
 }
 
+.vtex-menu-2-x-styledLink{
+  color: #727273;
+}
+
 .vtex-breadcrumb-1-x-link {
   color: #919191;
+}
+
+.vtex-slider-layout-0-x-slide--shelf{
+  margin: 0 7px;
 }
 
 .vtex-product-context-provider

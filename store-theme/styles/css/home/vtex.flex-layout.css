@@ -6,12 +6,6 @@
   gap: 10px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--container-vitrine-maisvendidos) :global(.vtex-slider-layout-0-x-slide--shelf) {
-  margin-right: 11px;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
 :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf):hover {
   filter: drop-shadow(0px 4px 20px rgba(31, 101, 145, 0.32));
 }
@@ -78,7 +72,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--container-text-grupo)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
 
@@ -246,11 +240,11 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--container-title-precogarantido)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 :global(.vtex-flex-layout-0-x-flexRow--container-title-multi-estagios)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-title-precos-imbativeis)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 :global(.vtex-flex-layout-0-x-flexRowContent--title-sobrecasasp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
@@ -338,6 +332,7 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-destaque),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-maisvendidos),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-qvvtbm),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-precos-imbativeis),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-estagios-maisvendidas),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-preco-garantido) {
@@ -347,15 +342,17 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--container-preco-garantido)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-precos-imbativeis)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-destaque)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-maisvendidos)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-qvvtbm)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-estagios-maisvendidas)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
   max-width: 1112px;
   margin: 0 auto;
@@ -459,12 +456,12 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--container-bannermagazines)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2n) {
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2n) {
   width: 90% !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--container-bannermagazines)
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
   width: 100% !important;
 }
 
@@ -488,8 +485,13 @@
 /*Container arrows*/
 
 :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-maisvendidos)
-  :global(.vtex-flex-layout-0-x-flexRow--container-shelf-fouritens)
-  :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf) {
+:global(.vtex-flex-layout-0-x-flexRow--container-shelf-fouritens)
+:global(.vtex-slider-layout-0-x-sliderRightArrow--shelf) {
+  right: -20px !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-qvvtbm)
+:global(.vtex-flex-layout-0-x-flexRow--container-shelf-fouritens)
+:global(.vtex-slider-layout-0-x-sliderRightArrow--shelf) {
   right: -20px !important;
 }
 @media only screen and (max-width: 1024px) {
@@ -505,6 +507,10 @@
     margin-bottom: 10px;
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-maisvendidos)
+  :global(.vtex-product-summary-2-x-container--summary-shelf) {
+    height: 100%!important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-qvvtbm)
   :global(.vtex-product-summary-2-x-container--summary-shelf) {
     height: 100%!important;
   }
@@ -525,6 +531,9 @@
   :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-maisvendidos) {
     padding-top: 0px;
   }
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-vitrine-qvvtbm) {
+    padding-top: 0px;
+  }
   :global(.vtex-rich-text-0-x-paragraph--text-maisvendidos) {
     font-size: 21px;
   }
@@ -535,6 +544,13 @@
   :global(.vtex-flex-layout-0-x-flexRow--container-vitrine-maisvendidos)
   :global(.vtex-slider-layout-0-x-slide--shelf) {
     margin-right: 13px;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    overflow: hidden;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--container-vitrine-qvvtbm)
+  :global(.vtex-slider-layout-0-x-slide--shelf) {
+    margin: 0 7px;
     padding-left: 0!important;
     padding-right: 0!important;
     overflow: hidden;
@@ -567,7 +583,7 @@
     width: 351px;
   }
   :global(.vtex-flex-layout-0-x-flexRow--container-banners-lojasbr) {
-     MARGIN-TOP: inherit!important; 
+    MARGIN-TOP: inherit!important; 
     padding-top: 50px!important;
   }
   :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf) {
@@ -585,20 +601,20 @@
     padding-top: 6px!important;
   }
   :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf) {
-   left: 90%!important;
+    left: 90%!important;
   }
   :global(.vtex-flex-layout-0-x-flexRow--container-banners-lojasbr) {
-   
+    
     MARGIN-TOP: 24PX;
   }
   :global(.vtex-rich-text-0-x-paragraph--text-grupo) {
     font-size: 16px;
   }
   :global(.vtex-rich-text-0-x-paragraph--text-ligue-agora) {
-
-   margin-top: 9px;
+    
+    margin-top: 9px;
   }
- 
+  
   :global(.vtex-flex-layout-0-x-flexRowContent--container-text-grupo) {
     display: flex;
     flex-direction: column;
@@ -661,14 +677,14 @@
     border-color: inherit;
   }
   :global(.vtex-slider-layout-0-x-sliderArrows--carousel) {
-  background: #fff!important;
-  height: 24px;
-  width: 24px;
-  display: flex;
-  border-radius: 100%;
-  padding-top: 6px;
+    background: #fff!important;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    border-radius: 100%;
+    padding-top: 6px;
   }
-
+  
   :global(.vtex-rich-text-0-x-paragraph--text-grupo) {
     text-align: center;
   }
