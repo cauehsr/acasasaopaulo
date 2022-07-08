@@ -61,7 +61,21 @@
   border-right: 1px solid #919191;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--topBar-text-juros)::before {
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-topbar){
+  min-height: 40px;
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-topbar) :global(.vtex-rich-text-0-x-wrapper){
+  font-size: 18px;
+  font-weight: 300;
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-topbar) :global(.vtex-rich-text-0-x-wrapper) :global(.vtex-bold){
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1F6591;
+}
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-juros)::before,
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-juros-mobile)::before {
   content:'';
   width: 20px;
   height: 20px;
@@ -73,7 +87,9 @@
   background-size: 100%;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--topBar-text-desconto)::before{
+
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-desconto)::before,
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-desconto-mobile)::before{
   content:'';
   width: 20px;
   height: 20px;
@@ -85,7 +101,8 @@
   background-size: 100%;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--topBar-text-maiorLoja)::before{
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-maiorLoja)::before,
+:global(.vtex-rich-text-0-x-paragraph--topBar-text-maiorLoja-mobile)::before{
   content:'';
   width: 20px;
   height: 20px;
@@ -181,6 +198,43 @@
   display: flex;
   gap: 5px;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .flexRowContent--container-search-bar{
+    background: #fff;
+  }
+  .flexRowContent--container-search-bar :global(.vtex-input-prefix__group){
+    background: #fff;
+    margin: 0 12px;
+  } 
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-main){
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+  }
+  :global(.vtex-store-drawer-0-x-openIconContainer)::before{
+    content: '';
+    background: url("assets/icons/menuDrawer.svg") no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+  :global(.vtex-store-drawer-0-x-menuIcon){
+    display: none;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--text-televendas)::before{
+    content: '';
+    margin-right: 1rem;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--text-televendas ) :global(.vtex-rich-text-0-x-paragraph--text-televendas){
+    display: none;
+  }
+  :global(.vtex-minicart-2-x-openIconContainer){
+    padding: 0;
+    padding-right: 12px;
+    margin-left: 14px;
+  }
 }
 
 :global(.vtex-rich-text-0-x-wrapper--text-televendas )
