@@ -2,7 +2,8 @@
 
   "flex-layout.row#container-bannermagazines":{
     "children":[
-      "flex-layout.row#main-content-magazines"
+      // bugando a home descomentar e corrigir
+      // "flex-layout.row#main-content-magazines"
     ],
     "props":{
       "title": "Banner Magazines ",
