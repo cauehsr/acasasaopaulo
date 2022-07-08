@@ -1,5 +1,4 @@
 {
-  
   "experimental__visibility-layout#menu-dep5-col2": {
     "title": "Coluna",
     "props": {
@@ -17,7 +16,6 @@
       ]
     },
     "children": [
-
       "menu-item#menu-dep5-col2",
       "vtex.menu@2.x:menu#menu-dep5-col2"
     ]

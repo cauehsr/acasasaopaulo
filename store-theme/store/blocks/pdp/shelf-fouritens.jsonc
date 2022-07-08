@@ -8,12 +8,12 @@
         }
     },
 
-    "rich-text#shelf-title_highlight-daypromo": {
-        "props": {
-            "text": "Promoção Do Dia !",
-            "blockClass": "shelf-title"
-        }
-    },
+    // "rich-text#shelf-title_highlight-daypromo": {
+    //     "props": {
+    //         "text": "Promoção Do Dia !",
+    //         "blockClass": "shelf-title"
+    //     }
+    // },
 
     "flex-layout.row#fouritens": {
         "children": [

@@ -28,15 +28,15 @@
       "text":"Mais vendidos",
       "blockClass": "text-maisvendidos"
     }
-  },
-
-  "link#vertudo":{
-    "props": {
-      "title":"botao - ver tudo",
-      "href": "/",
-      "label": "Ver tudo",
-      "blockClass":"link-vertudo"
-    }
   }
+
+  // "link#vertudo0":{
+  //   "props": {
+  //     "title":"botao - ver tudo",
+  //     "href": "/",
+  //     "label": "Ver tudo",
+  //     "blockClass":"link-vertudo"
+  //   }
+  // }
 
 }

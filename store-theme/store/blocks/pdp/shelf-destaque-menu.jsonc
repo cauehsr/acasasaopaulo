@@ -1,7 +1,7 @@
 {
     "flex-layout.row#shelf-destaque-menu": {
         "children": [
-            "rich-text#shelf-title_highlight-daypromo",
+            "rich-text#shelf-title_highlight-destaquemenu",
             "flex-layout.row#destaque-menu"
         ],
         "props": {
@@ -9,7 +9,7 @@
         }
     },
 
-    "rich-text#shelf-title_highlight-daypromo": {
+    "rich-text#shelf-title_highlight-destaquemenu": {
         "props": {
             "text": "Promoção Do Dia !",
             "blockClass": "shelf-title"

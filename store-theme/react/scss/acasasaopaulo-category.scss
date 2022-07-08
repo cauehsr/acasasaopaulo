@@ -1,4 +1,35 @@
 // PÁGINA DE DEPARTAMENTO/CATEGORIA/BUSCA MOBILE
+@media (min-width: 768px) {
+    .render-route-store-search-department,
+    .render-route-store-search-category,
+    .render-route-store-search-subcategory,
+    .render-route-store-search-brand,
+    .render-route-store-search{
+         & .vtex-flex-layout-0-x-flexRow--order-by{
+            & .vtex-flex-layout-0-x-flexRowContent--order-by{
+                justify-content: space-between;
+
+                & > .vtex-flex-layout-0-x-stretchChildrenWidth{
+                    width: auto!important;
+                }
+            }
+        }
+
+        .vtex-flex-layout-0-x-flexRow--row-countperpageAndtitle{
+            .vtex-flex-layout-0-x-flexRowContent--row-countperpageAndtitle{
+                .vtex-flex-layout-0-x-stretchChildrenWidth{
+                    margin-right: 35px;
+                    justify-content: flex-start;
+
+                    .vtex-search-result-3-x-showingProducts{
+                        width: auto!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 768px) {
     //filtro aberto
     .vtex-search-result-3-x-sidebar{
@@ -105,7 +136,7 @@
     .render-route-store-search-subcategory,
     .render-route-store-search{
         overflow: hidden;
-
+        
         .vtex-flex-layout-0-x-flexRowContent--banner-search{
             position: relative;
             
@@ -205,7 +236,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-
+                
                 & .vtex-flex-layout-0-x-stretchChildrenWidth{
                     width: unset!important;
                     

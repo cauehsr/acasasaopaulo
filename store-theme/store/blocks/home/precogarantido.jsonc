@@ -1,7 +1,7 @@
 {
 
   "flex-layout.row#container-precogarantido":{
-      "title": "Vitrene Preço Garantido",
+      "title": "Vitrine Preço Garantido",
       "children":[
         "flex-layout.row#container-title-precogarantido",
         "flex-layout.row#shelf-fouritens-mob-for"
@@ -15,10 +15,19 @@
     "title": "Title Preço garantido",
     "children":[
       "rich-text#title-precogarantido",
-      "link#vertudo"
+      "link#vertudo2"
     ],
       "props":{
       "blockClass": "container-title-precogarantido" 
+    }
+  },
+
+  "link#vertudo2":{
+    "props": {
+      "title":"botao - ver tudo",
+      "href": "/",
+      "label": "Ver tudo",
+      "blockClass":"link-vertudo"
     }
   },
 

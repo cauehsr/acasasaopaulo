@@ -16,7 +16,6 @@
       ]
     },
     "children": [
-
       "menu-item#menu-dep10-col1",
       "vtex.menu@2.x:menu#menu-dep10-col1"
     ]

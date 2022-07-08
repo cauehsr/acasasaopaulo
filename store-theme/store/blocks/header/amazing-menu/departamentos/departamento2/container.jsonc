@@ -1,5 +1,4 @@
 {
-
   "menu-item#dep2": {
     "props": {
       "blockClass": ["amazing-menu-department"],
@@ -23,7 +22,6 @@
     },
     "children": [
       "flex-layout.row#menu-dep2"
-
     ]
   },
 

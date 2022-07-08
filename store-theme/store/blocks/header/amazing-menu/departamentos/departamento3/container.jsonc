@@ -17,7 +17,7 @@
 
   "vtex.menu@2.x:submenu#dep3": {
     "props": {
-      "blockClass": ["amazing-menu-department-submenu-03"],
+      "blockClass": ["amazing-menu-department-submenu-dep3"],
       "width": "100%"
     },
     "children": [
@@ -34,17 +34,12 @@
       "experimentalHideEmptyCols": true
     },
     "children": [
-      // Categoria 1 Coluna 1
-      "experimental__visibility-layout#menu-dep3-col1",
-
-      // Categoria 1 Coluna 2
-      "experimental__visibility-layout#menu-dep3-col2"
-
       // Categoria 1 Coluna 3
-      //"experimental__visibility-layout#menu-dep3-col3",
-
-      // Categoria 1 Coluna 4
-      //"experimental__visibility-layout#menu-dep3-col4"
+      "experimental__visibility-layout#menu-dep3-col1",
+      "experimental__visibility-layout#menu-dep3-col2",
+      "experimental__visibility-layout#menu-dep3-col3",
+      "experimental__visibility-layout#menu-dep3-col4",
+      "experimental__visibility-layout#menu-dep3-col6-shelf"
     ]
   }
   

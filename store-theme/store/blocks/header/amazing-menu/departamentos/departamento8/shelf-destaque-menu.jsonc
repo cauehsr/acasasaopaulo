@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#shelf-destaque-menu-dep8": {
+        "children": [
+            "rich-text#shelf-title_highlight-destaquemenu-dep8",
+            "flex-layout.row#destaque-menu-dep8"
+        ],
+        "props": {
+            "blockClass": "container-amazing-shelf"
+        }
+    },
+
+    "rich-text#shelf-title_highlight-destaquemenu-dep8": {
+        "props": {
+            "text": "Promoção Do Dia !",
+            "blockClass": "shelf-title"
+        }
+    },
+
+    "flex-layout.row#destaque-menu-dep8": {
+        "children": [
+          "list-context.product-list#highlight-shelf-destaque-menu-dep8"
+        ],
+        "props": {
+            "blockClass": "shelf-amazing-menu"
+        }
+    },
+
+    "list-context.product-list#highlight-shelf-destaque-menu-dep8": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#highlight-shelf-destaque-menu-dep8"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+
+    "slider-layout#highlight-shelf-destaque-menu-dep8": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": "shelf",
+            "showPaginationDots": "always"
+        }
+    }
+}

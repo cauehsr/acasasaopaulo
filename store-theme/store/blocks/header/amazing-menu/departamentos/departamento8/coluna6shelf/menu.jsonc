@@ -1,0 +1,9 @@
+{
+    "experimental__visibility-layout#menu-dep8-col6-shelf": {
+        "title": "Coluna",
+        "props": {
+          "visible": true
+        },
+        "children": ["flex-layout.row#shelf-destaque-menu-dep8"]
+      }    
+}

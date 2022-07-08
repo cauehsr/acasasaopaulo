@@ -309,15 +309,15 @@
 
 :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-1 ),
 :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-2 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-03 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-4 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-5 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-6 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-07 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-08 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-09 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-10 ),
-:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-11 ){
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep3 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep4 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep5 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep6 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep7 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep8 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep9 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep10 ),
+:global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-dep11 ){
   width: 1200px;
   background: #F2F2F2;
   max-width: 1200px;
@@ -333,7 +333,7 @@
 {
   :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-1 ),
   :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-2 ),
-  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-03 ),
+  :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-3 ),
   :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-4 ),
   :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-5 ),
   :global(.vtex-menu-2-x-submenu--amazing-menu-department-submenu-6 ),
@@ -350,15 +350,15 @@
 
 :global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-1--isOpen ),
 :global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-2--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-03--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-4--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-5--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-6--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-07--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-08--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-09--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-10--isOpen ),
-:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-11--isOpen ){
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep3--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep4--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep5--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep6--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep7--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep8--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep9--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep10--isOpen ),
+:global(.vtex-menu-2-x-submenuWrapper--amazing-menu-department-submenu-dep11--isOpen ){
   background: transparent;
   border: none !important;
 }
@@ -442,16 +442,9 @@
   display: none;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--container-amazing-shelf ){
-  margin-left: 4em;
-  padding-left: 2em;
-  display: flex;
-  border-left: 1px solid #0001;
-}
-
 :global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
 :global(.vtex-rich-text-0-x-container--shelf-title ){
-  margin: 45px 0;
+  margin: 32px 0 !important;
   display: flex;
   justify-content: center;
 }

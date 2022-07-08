@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
 
+
+.vtex-flex-layout-0-x-flexRowContent--amazing-menu-department-block-items{
+  & > .vtex-flex-layout-0-x-stretchChildrenWidth {
+    margin-top: 56px;
+    
+    &:nth-of-type(1),
+    &:nth-of-type(2),
+    &:last-of-type{
+      margin-top: 0!important;
+    }
+    
+    
+    .vtex-flex-layout-0-x-flexRow--container-amazing-shelf{
+      border-left: 1px solid #0001;
+      padding: unset!important;
+      margin-left: unset!important;
+    }
+  }
+}
+
 .vtex-store-components-3-x-imageElement{
   max-width: 100% !important;
 }
@@ -104,7 +124,7 @@
 .vtex-product-context-provider
 .vtex-flex-layout-0-x-flexRowContent--shelf 
 .vtex-flex-layout-0-x-stretchChildrenWidth {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 .vtex-product-context-provider
@@ -497,20 +517,20 @@
   .vtex-store-components-3-x-searchBarInnerContainer {
     z-index: 999;
   }
-
+  
   .vtex-store-components-3-x-searchBarInnerContainer .vtex-input {
     z-index: 999;
   }
-
+  
   .vtex-store-components-3-x-portalContainer {
     z-index: 99 !important;
     top: -14px !important;
   }
-
+  
   .vtex-search-2-x-biggy-autocomplete-wrapper {
     width: 480px !important;
   }
-
+  
   .vtex-search-2-x-biggy-autocomplete-wrapper .vtex-search-2-x-biggy-autocomplete {
     border-radius: 0;
     border-bottom-left-radius: 8px;

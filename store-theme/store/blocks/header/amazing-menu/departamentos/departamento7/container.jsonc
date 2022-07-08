@@ -14,15 +14,17 @@
     },
     "blocks": ["vtex.menu@2.x:submenu#dep7"]
   },
+
   "vtex.menu@2.x:submenu#dep7": {
     "props": {
-      "blockClass": ["amazing-menu-department-submenu-07"],
+      "blockClass": ["amazing-menu-department-submenu-dep7"],
       "width": "100%"
     },
     "children": [
       "flex-layout.row#menu-dep7"
     ]
   },
+
   "flex-layout.row#menu-dep7": {
     "props": {
       "blockClass": ["amazing-menu-department-block-items"],
@@ -32,17 +34,13 @@
       "experimentalHideEmptyCols": true
     },
     "children": [
-      // Categoria 1 Coluna 1
-      "experimental__visibility-layout#menu-dep7-col1",
-
-      // Categoria 1 Coluna 2
-      "experimental__visibility-layout#menu-dep7-col2"
-
       // Categoria 1 Coluna 3
-      // "experimental__visibility-layout#menu-dep7-col3",
-
-      // Categoria 1 Coluna 4
-       //"experimental__visibility-layout#menu-dep7-col4"
+      "experimental__visibility-layout#menu-dep7-col1",
+      "experimental__visibility-layout#menu-dep7-col2",
+      "experimental__visibility-layout#menu-dep7-col3",
+      "experimental__visibility-layout#menu-dep7-col4",
+      "experimental__visibility-layout#menu-dep7-col6-shelf"
     ]
   }
+  
 }

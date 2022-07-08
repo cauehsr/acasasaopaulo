@@ -1,10 +1,10 @@
 {
 
   "list-context.product-list": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf#destaque"]
   },
 
-  "product-summary.shelf": {
+  "product-summary.shelf#destaque": {
     "children": [
       "flex-layout.row#container-left-destaque",
       "flex-layout.row#container-right-destaque"
@@ -63,35 +63,6 @@
     }
   },
 
-  "vtex.product-highlights@2.x:product-highlights#collection": {
-    "props": {
-      "type": "promotion"
-    },
-    "children": [
-      "product-highlight-wrapper"
-    ]
-  },
-
-  "product-highlight-wrapper": {
-    "props": {
-      "blockClass": "collection"
-    },
-    "children": [
-      "product-highlight-text"
-    ]
-  },
-
-  "product-highlight-text": {
-    "props": {
-      "message": "{highlightName}"
-    }
-  },
-
-  "product-list-price#summary": {
-    "props": {
-      "blockClass": "summary"
-    }
-  },
 
   "flex-layout.row#selling-price-savings": {
     "props": {
@@ -107,27 +78,5 @@
       "product-selling-price#summary",
       "product-price-savings#summary"
     ]
-  },
-
-  "product-installments#summary": {
-    "props": {
-      "blockClass": "summary"
-    }
-  },
-
-  "product-selling-price#summary": {
-    "props": {
-      "blockClass": "summary"
-    }
-  },
-
-  "product-price-savings#summary": {
-    "props": {
-      "markers": [
-        "discount"
-      ],
-      "blockClass": "summary"
-    }
   }
-  
 }

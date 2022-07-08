@@ -12,59 +12,7 @@
     }
   },
 
-  "product-summary-name": {
-    "props": {
-      "tag": "h2"
-    }
-  },
 
-  "flex-layout.col#productRating": {
-    "props": {
-      "blockClass": "productRating"
-    },
-    "children": [
-      "product-rating-inline"
-    ]
-  },
-
-  "stack-layout#prodsum": {
-    "children": [
-      "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection"
-    ]
-  },
-
-  "product-summary-image#shelf": {
-    "props": {
-      "showBadge": true,
-      "aspectRatio": "1:1",
-      "maxHeight": 300
-    }
-  },
-
-  "vtex.product-highlights@2.x:product-highlights#collection": {
-    "props": {
-      "type": "promotion"
-    },
-    "children": [
-      "product-highlight-wrapper"
-    ]
-  },
-
-  "product-highlight-wrapper": {
-    "props": {
-      "blockClass": "collection"
-    },
-    "children": [
-      "product-highlight-text"
-    ]
-  },
-
-  "product-highlight-text": {
-    "props": {
-      "message": "{highlightName}"
-    }
-  },
 
   "product-list-price#summary": {
     "props": {
@@ -96,15 +44,5 @@
     "props": {
       "blockClass": "summary"
     }
-  },
-
-  "product-price-savings#summary": {
-    "props": {
-      "markers": [
-        "discount"
-      ],
-      "blockClass": "summary"
-    }
-  }
-  
+  }  
 }

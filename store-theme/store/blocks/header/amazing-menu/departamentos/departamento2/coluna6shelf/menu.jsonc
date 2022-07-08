@@ -4,6 +4,6 @@
         "props": {
           "visible": true
         },
-        "children": ["flex-layout.row#shelf-destaque-menu"]
+        "children": ["flex-layout.row#shelf-destaque-menu-dep2"]
       }    
 }

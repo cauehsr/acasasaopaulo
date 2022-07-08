@@ -2,28 +2,30 @@
   "menu-item#dep10": {
     "props": {
       "blockClass": ["amazing-menu-department"],
-      "id": "menu-item-dep8",
+      "id": "menu-item-dep10",
       "type": "custom",
       "iconId": null,
       "itemProps": {
         "text": "Pressurizadores",
         "type": "internal",
-        "href": "/Pressurizadores",
+        "href": "/pressurizadores",
         "noFollow": false
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#dep-desk-10"]
+    "blocks": ["vtex.menu@2.x:submenu#dep10"]
   },
-  "vtex.menu@2.x:submenu#dep-desk-10": {
+
+  "vtex.menu@2.x:submenu#dep10": {
     "props": {
-      "blockClass": ["amazing-menu-department-submenu-10"],
+      "blockClass": ["amazing-menu-department-submenu-dep10"],
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu-dep-desk-10"
+      "flex-layout.row#menu-dep10"
     ]
   },
-  "flex-layout.row#menu-dep-desk-10": {
+
+  "flex-layout.row#menu-dep10": {
     "props": {
       "blockClass": ["amazing-menu-department-block-items"],
       "colSizing": "auto",
@@ -32,17 +34,13 @@
       "experimentalHideEmptyCols": true
     },
     "children": [
-      // Categoria 1 Coluna 1
-      "experimental__visibility-layout#menu-dep10-col1",
-
-      // Categoria 1 Coluna 2
-      "experimental__visibility-layout#menu-dep10-col2"
-
       // Categoria 1 Coluna 3
-       //"experimental__visibility-layout#menu-dep10-col3",
-
-      // Categoria 1 Coluna 4
-       //"experimental__visibility-layout#menu-dep10-col4"
+      "experimental__visibility-layout#menu-dep10-col1",
+      "experimental__visibility-layout#menu-dep10-col2",
+      "experimental__visibility-layout#menu-dep10-col3",
+      "experimental__visibility-layout#menu-dep10-col4",
+      "experimental__visibility-layout#menu-dep10-col6-shelf"
     ]
   }
+  
 }

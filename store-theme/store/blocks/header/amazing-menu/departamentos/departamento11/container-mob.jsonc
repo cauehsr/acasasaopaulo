@@ -1,0 +1,17 @@
+{
+  "menu-item#dep11-mob": {
+    "props": {
+      "blockClass": ["amazing-menu-department"],
+      "id": "menu-item-dep11",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "text": "OFF",
+        "type": "internal",
+        "href": "/climatizacao",
+        "noFollow": false
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#dep11"]
+  }
+}

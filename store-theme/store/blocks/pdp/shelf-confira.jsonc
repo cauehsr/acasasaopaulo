@@ -1,7 +1,7 @@
 {
     "flex-layout.row#shelf-confira": {
         "children": [
-            "flex-layout.row#confira"
+            "flex-layout.row#confira2"
         ],
         "props": {
             "blockClass": "container--shelf"
@@ -15,7 +15,7 @@
         }
     },
 
-    "flex-layout.row#confira": {
+    "flex-layout.row#confira2": {
         "children": [
         "rich-text#shelf-title_highlight-confira",
         "list-context.product-list#highlight-shelf-confira"

@@ -5,7 +5,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
-      "flex-layout.row#confira"
+      "flex-layout.row#confira1"
     ]
   },
 
@@ -263,7 +263,7 @@
     }
   },
 
-  "flex-layout.row#confira": {
+  "flex-layout.row#confira1": {
     "children": [
       "rich-text#Confira",
       "list-context.product-list#confira"
@@ -273,14 +273,14 @@
     }
   },
 
-  "link#vertudo":{
-    "props": {
-      "title":"botao - ver tudo",
-      "href": "/",
-      "label": "Ver tudo",
-      "blockClass":"link-vertudo"
-    }
-  },
+  // "link#vertudo4":{
+  //   "props": {
+  //     "title":"botao - ver tudo",
+  //     "href": "/",
+  //     "label": "Ver tudo",
+  //     "blockClass":"link-vertudo"
+  //   }
+  // },
 
   "rich-text#Confira": {
     "props": {
