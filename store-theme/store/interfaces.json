@@ -2,6 +2,11 @@
     "global-css": {
         "component": "GlobalCSS"
     },
+
+    "branch-department": {
+        "component": "BranchDepartment"
+    },
+
     "menu-department": {
         "component": "MenuDepartment",
         "composition": "children"

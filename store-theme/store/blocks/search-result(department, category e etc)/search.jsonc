@@ -79,7 +79,8 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#banner-search",
-      "flex-layout.row#branchDepartmentAll",
+      "branch-department",
+      // "flex-layout.row#branchDepartmentAll",
       "flex-layout.row#order-by",
       "flex-layout.row#result"
     ],
