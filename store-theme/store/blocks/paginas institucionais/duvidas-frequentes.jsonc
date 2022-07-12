@@ -1,7 +1,7 @@
 {
   "store.custom#duvidas-frequentes": {
       "children": [
-          
+        "CommonQuestions"
       ]
   }
 

@@ -1,8 +1,134 @@
 {
   "store.custom#politica-de-entrega": {
-      "children": [
-          
-      ]
+    "children": [
+      "flex-layout.row#container-principal-entrega"
+    ]
+  },
+
+   /* Politica de Entrega*/
+
+  "flex-layout.row#container-principal-entrega":{
+    "children":[
+      "flex-layout.col#container-institucional-menu",
+      "flex-layout.row#container-politica-de-entrega"
+    ],
+    "props":{
+      "blockClass":"container-principal-entrega"
+    }
+  },
+
+  "flex-layout.col#container-institucional-menu":{
+    "children":[
+      "institucionalMenu"
+    ],
+    "props":{
+      "width": "20%",
+      "blockClass":"container-institucional-menu"
+    }
+  },
+   
+  "flex-layout.row#container-politica-de-entrega":{
+    "children":[
+      "rich-text#title-pol-entrega",
+      "flex-layout.row#container-previsao-de-entrega",
+      "flex-layout.row#container-regras-de-frete",
+      "flex-layout.row#container-entrega"
+    ],
+    "props":{
+      "blockClass":"container-pol-entrega"
+    } 
+  },
+
+  "rich-text#title-pol-entrega": {
+    "props": {
+      "title": "Titulo - Politica de Entrega",
+      "text": "Politica de Entrega",
+      "blockClass": "title-pol-entrega"
+    }
+  },
+
+  //Previsão de Entrega
+
+  "flex-layout.row#container-previsao-de-entrega":{
+    "children":[
+      "rich-text#title-previsao-de-entrega",
+      "rich-text#text-previsao-de-entrega"
+    ],
+    "props":{
+      "blockClass":"container-previsao-de-entrega"
+    } 
+  },
+
+  "rich-text#title-previsao-de-entrega": {
+    "props": {
+      "title": "Titulo - Previsao de Entrega",
+      "text": "Previsão de Entrega",
+      "blockClass": "subtitle-pol-entrega"
+    }
+  },
+
+  "rich-text#text-previsao-de-entrega": {
+    "props": {
+      "title": "Texto - Previsao de Entrega",
+      "text": "<span class='vtex-space'>A previsão para entrega dos seus produtos varia de acordo com o local solicitado para entrega, forma de pagamento escolhida e disponibilidade do produto adquirido. Ao colocar um produto no carrinho de compras e fazer a escolha do estado de entrega o sistema automaticamente informará o prazo previsto para entrega do seu pedido de acordo com a modalidade escolhida.</span> <br><span class='vtex-space'> Muito Importante: A previsão para entrega do seu pedido passa a ser considerado a partir da confirmação do pagamento e não da finalização da compra.</span> <br>",
+      "blockClass": "text-pol-entrega"
+    }
+  }, 
+
+  // Regras de Frete
+
+  "flex-layout.row#container-regras-de-frete":{
+    "children":[
+      "rich-text#title-regras-de-frete",
+      "rich-text#text-regras-de-frete"
+    ],
+    "props":{
+      "blockClass":"container-regras-de-frete"
+    } 
+  },
+
+  "rich-text#title-regras-de-frete": {
+    "props": {
+      "title": "Titulo - Regras de Frete",
+      "text": "Regras de Frete",
+      "blockClass": "subtitle-pol-entrega"
+    }
+  },
+
+  "rich-text#text-regras-de-frete": {
+    "props": {
+      "title": "Texto - Regras de Frete",
+      "text": "<span class='vtex-space'> As entregas são realizadas mediante a aceitação e o pagamento de um frete. O frete varia de acordo com o tamanho, peso e distância do local de entrega. Durante o processo de compra, o consumidor escolherá a forma de envio do produto e automaticamente saberá o valor do frete e a previsão para entrega. Somente após ter essas informações é que o consumidor efetivará a compra.</span> <span class='vtex-space'> <br> Frete Grátis: Apenas os produtos identificados com o selo 'FRETE GRÁTIS' serão enviados sem custo de entrega para o cliente. A empresa se reserva no direito de enviar o produto identificado, na modalidade de envio “econômica”.</span>",
+      "blockClass": "text-pol-entrega"
+    }
+  }, 
+ 
+  // Entrega  
+
+  "flex-layout.row#container-entrega":{
+    "children":[
+      "rich-text#title-entrega",
+      "rich-text#text-entrega"
+    ],
+    "props":{
+      "blockClass":"container-entrega"
+    } 
+  },
+
+  "rich-text#title-entrega": {
+    "props": {
+      "title": "Titulo - Entrega",
+      "text": "Entrega",
+      "blockClass": "subtitle-pol-entrega"
+    }
+  },
+
+  "rich-text#text-entrega": {
+    "props": {
+      "title": "Texto - Entrega",
+      "text":" <span class='vtex-space'> Os produtos vendidos saem do nosso Centro de Distribuição, encaminhados pelos CORREIOS ou por uma Transportadora de alta confiança que entregará a mercadoria no local desejado, cadastrado no momento da compra.</span> <br> <span class='vtex-space'> <span class='vtex-bold'> ATENÇÃO! </span> Na impossibilidade de entrega no endereço indicado no momento da compra, fica a disposição do adquirente a retirada das mercadorias com documento de identificação nos correios e transportadora indicada. Para sua segurança é expressamente vedada à entrega de seu pedido a terceiros, salvo mediante procuração específica para este fim.</span>",
+      "blockClass": "text-pol-entrega"
+    }
   }
 
 }

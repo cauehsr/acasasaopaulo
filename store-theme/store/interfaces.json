@@ -10,5 +10,21 @@
     "menu-department": {
         "component": "MenuDepartment",
         "composition": "children"
+    },
+
+    "Cookies":{
+       "component": "Cookies"
+    },
+
+    "institucionalMenu":{
+        "component": "institucionalMenu"
+    },
+
+    "FaleConosco":{
+        "component": "FaleConosco"
+    },
+
+    "CommonQuestions":{
+        "component": "CommonQuestions"
     }
 }

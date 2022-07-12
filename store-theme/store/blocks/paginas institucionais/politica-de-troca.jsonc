@@ -1,0 +1,86 @@
+{
+  "store.custom#politica-de-troca": {
+      "children": [
+          
+      ]
+  },
+  
+  "store.custom#politica-de-entrega": {
+    "children": [
+      "flex-layout.row#container-principal-entrega"
+    ]
+  },
+
+  /* Politica de Entrega*/
+
+  "flex-layout.row#container-principal-entrega":{
+    "children":[
+      "flex-layout.col#container-institucional-menu",
+      "flex-layout.row#container-politica-de-troca"
+    ],
+    "props":{
+      "blockClass":"container-principal-troca"
+    }
+  },
+
+  "flex-layout.col#container-institucional-menu":{
+    "children":[
+      "institucionalMenu"
+    ],
+    "props":{
+      "width": "20%",
+      "blockClass":"container-institucional-menu"
+    }
+  },
+    
+  "flex-layout.row#container-politica-de-troca":{
+    "children":[
+      "rich-text#title-pol-troca",
+      "flex-layout.row#container-previsao-de-entrega",
+      "flex-layout.row#container-regras-de-frete",
+      "flex-layout.row#container-entrega"
+    ],
+    "props":{
+      "blockClass":"container-pol-troca"
+    } 
+  },
+
+  "rich-text#title-pol-troca": {
+    "props": {
+      "title": "Titulo - Politica de Troca",
+      "text": "Politica de Troca",
+      "blockClass": "title-pol-troca"
+    }
+  },
+
+  //Previsão de Entrega
+
+  "flex-layout.row#container-condicoes-gerais":{
+    "children":[
+      "rich-text#title-previsao-de-entrega",
+      "rich-text#text-previsao-de-entrega"
+    ],
+    "props":{
+      "blockClass":"container-previsao-de-entrega"
+    } 
+  },
+
+  "rich-text#title-condicoes-gerais": {
+    "props": {
+      "title": "Titulo - Condições Gerais",
+      "text": "Condições Gerais",
+      "blockClass": "subtitle-condicoes-gerais"
+    }
+  },
+
+  "rich-text#text-condicoes-gerais": {
+    "props": {
+      "title": "Texto - Condicoes Gerais",
+      "text": "<p>- Todas as ocorrências que envolvam troca ou devolução devem ser feitas no prazo de até 7 (sete) dias corridos, a contar do dia seguinte da data do recebimento do produto.</p>",
+      "blockClass": "text-pol-condicoes-gerais"
+    }
+  }
+  
+}  
+
+

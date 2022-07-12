@@ -167,8 +167,27 @@
   }
 }
 
+:global(.vtex-store-components-3-x-container--email-input ){
+  position: relative;
+  left: -7em;
+}
+
+:global(.vtex-store-components-3-x-newsletter)
+:global(.vtex-store-components-3-x-newsletter--name-input){
+  margin-bottom: 80px;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--email-input ){
+  width: 36.89em;
+}
+
+:global(.vtex-store-components-3-x-newsletter--email-input ){
+  display: flex;
+}
+
 /* Container Link Rapido */
-:global(.vtex-flex-layout-0-x-flexRow--news-bottom) {
+
+:global(.vtex-flex-layout-0-x-flexRow--news-bottom ){
   width: 100%;
   max-width: 1200px;
 }

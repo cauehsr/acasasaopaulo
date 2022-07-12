@@ -1,6 +1,7 @@
 {
     "store.home": {
         "blocks": [
+            "Cookies",
             "flex-layout.row#container-banner-Principal",
             "flex-layout.row#lojasbrasil",
             "flex-layout.row#container-destaque",

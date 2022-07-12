@@ -1,38 +1,16 @@
 {
-  /* Politica de Entrega*/
+ 
 
-  "flex-layout.row#container-politica-de-entrega":{
-    "children":[
-      "flex-layout.row#searchbread"
+  // Breadcrumb institucional
+
+  "flex-layout.row#bread-institucional": {
+    "children": [
+      "breadcrumb"
     ],
-    "props":{
-      "blockClass":"container-pol-entrega"
-    } 
-  },
-
-  "rich-text#title-pol-entrega": {
     "props": {
-      "title": "Titulo - Politica de Entrega",
-      "text": "Politica de Entrega",
-      "blockClass": "title-pol-entrega"
-    }
-  },
-
-
-  "flex-layout.row#container-politica-de-privacidade":{
-    "children":[
-      "flex-layout.row#searchbread"
-    ],
-    "props":{
-      "blockClass":"container-pol-privacidade"
-    }
-  },
-
-  "rich-text#title-pol-privacidade": {
-    "props": {
-      "title": "Titulo - Politica de privacidade",
-      "text": "Politica de privacidade",
-      "blockClass": "title-pol-privacidade"
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass":"container-breadcrumb"
     }
   }
 

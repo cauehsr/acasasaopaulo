@@ -1,0 +1,250 @@
+
+:global(.vtex-flex-layout-0-x-flexRow--container-pol-entrega ),
+:global(.vtex-flex-layout-0-x-flexRow--container-pol-privacidade ),
+:global(.vtex-flex-layout-0-x-flexRow--container-quem-somos){
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-pol-entrega ),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-pol-privacidade ){
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-pol-entrega)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth ),
+:global(.vtex-flex-layout-0-x-flexRow--container-pol-privacidade )
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-pol-entrega)
+:global(.vtex-rich-text-0-x-container){
+  max-width: 890px;
+}
+
+:global(.vtex-rich-text-0-x-container--title-pol-entrega),
+:global(.vtex-rich-text-0-x-container--title-pol-privacidade),
+:global(.vtex-rich-text-0-x-wrapper--title-nossa-historia){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #3a3a3a;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-pol-entrega),
+:global(.vtex-rich-text-0-x-paragraph--text-pol-privacidade),
+:global(.vtex-rich-text-0-x-paragraph--text-nossa-historia){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #919191;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--container-pol-entrega )
+:global(.vtex-flex-layout-0-x-flexRowContent ),
+:global(.vtex-flex-layout-0-x-flexRow--container-pol-privacidade )
+:global(.vtex-flex-layout-0-x-flexRowContent){
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-space ){
+  display: inherit;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-pol-privacidade )
+:global(.vtex-bold ),
+:global(.vtex-rich-text-0-x-paragraph--text-pol-entrega) 
+:global(.vtex-bold ){
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-entrega ){
+  margin-bottom: 100px;
+}
+
+:global(.vtex-rich-text-0-x-container--subtitle-pol-entrega ),
+:global(.vtex-rich-text-0-x-container--subtitle-pol-privacidade ){
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  font-family: 'Red Hat Display';
+}
+
+/*Quem Somos*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-quem-somos)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-quem-somos ){
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-nossa-historia-text){
+  width: 100%;
+  max-width: 400px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-nossa-historia-text){
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-rich-text-0-x-container--title-nossa-historia){
+  margin-top: -20px;
+  margin-bottom: 8px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-nossa-historia ){
+  width: 100%;
+  max-width: 1100px !important;
+  margin: 0 auto;
+}
+
+:global(.vtex-store-components-3-x-imageElement--banner-missao-institucional ){
+  box-shadow: -20px 15px 3px 3px #00A0C6;
+  border-radius: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-nossa-historia){
+  margin-bottom: 72px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-missao-visao-valores){
+  display: flex;
+  max-width: 1200px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-missao-visao-valores){
+  display: flex;
+  height: 301px;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(271.89deg, rgba(0, 160, 198, 0.74) -4.04%, #1F6591 102.35%);
+  border: #00A0C6;
+  margin-bottom: 72px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-missao-visao-valores) 
+:global(.vtex-store-components-3-x-imageElement ){
+  width: 105px;
+  height: 105px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-missao-visao-valores)
+:global(.vtex-flex-layout-0-x-flexRowContent){
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-missao)::before {
+  content: 'Missão';
+  display: block;
+  color: #fff;
+  margin: 30px 0 20px 0;
+  font-size: 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-missao) {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  width: 266px;
+}
+
+:global(.vtex-rich-text-0-x-container--text-missao){
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--text-visao)::before {
+  content: 'Visão';
+  display: block;
+  color: #fff;
+  margin: 20px;
+  font-size: 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-visao) {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  width: 266px;
+}
+
+:global(.vtex-rich-text-0-x-container--text-visao){
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-valores)::before {
+  content: 'Valores';
+  display: block;
+  color: #fff;
+  margin: 20px;
+  font-size: 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-valores) {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  width: 266px;
+}
+
+:global(.vtex-rich-text-0-x-container--text-valores){
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-final-quem-somos){
+  width: 100%;
+  max-width: 1100px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-final ){
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #919191;
+  margin-bottom: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-nossa-historia) 
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+  justify-content: flex-start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--box-banner-missao )
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  justify-content: flex-end;
+}

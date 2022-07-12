@@ -1,0 +1,124 @@
+{
+
+  "store.custom#politica-de-privacidade": {
+    "children": [
+      "flex-layout.row#container-principal"
+    ]
+  },
+
+  /* Politica de Privacidade*/
+
+  "flex-layout.row#container-principal":{
+    "children":[
+      "flex-layout.col#container-institucional-menu",
+      "flex-layout.row#container-politica-de-privacidade"
+    ],
+    "props":{
+      "blockClass":"container-principal"
+    }
+  },
+
+  "flex-layout.col#container-institucional-menu":{
+    "children":[
+      "institucionalMenu"
+    ],
+    "props":{
+      "width": "20%",
+      "blockClass":"container-institucional-menu"
+    }
+  },
+
+  "flex-layout.row#container-politica-de-privacidade":{
+    "children":[
+      "rich-text#title-pol-privacidade",
+      "flex-layout.row#container-seg-confiabilidade",
+      "flex-layout.row#container-envio-emails"
+    ],
+    "props":{
+      "blockClass":"container-pol-privacidade"
+    }
+  },
+
+  "rich-text#title-pol-privacidade": {
+    "props": {
+      "title": "Titulo - Politica de privacidade",
+      "text": "Politica de privacidade",
+      "blockClass": "title-pol-privacidade"
+    }
+  },
+
+  "rich-text#text-pol-privacidade": {
+    "props": {
+      "title": "Texto - Politica de privacidade",
+      "text": "  Nosso compromisso é respeitar sua privacidade e garantir o sigilo das informações que você fornece ou que coletamos por meio do portal A Casa São Paulo. Dessa forma, desenvolvemos a presente Política de Privacidade (“Política”), de modo que você (doravante “Usuário”) tenha conhecimento de quais informações coletamos durante seu acesso ao Portal, bem como de como tratamos tais informações.",
+      "blockClass": "text-pol-privacidade"
+    }
+  },
+
+  //segurança e confiabilidade
+
+  "flex-layout.row#container-seg-confiabilidade":{
+    "children":[
+      "rich-text#title-seg-confiabilidade",
+      "rich-text#text-seg-confiabilidade"
+    ],
+    "props":{
+      "blockClass":"container-seg-confiabilidade"
+    } 
+  },
+
+  "rich-text#title-seg-confiabilidade": {
+    "props": {
+      "title": "Titulo - Segurança e Confidencialidade",
+      "text": "Segurança e Confidencialidade",
+      "blockClass": "subtitle-pol-privacidade"
+    }
+  },
+
+  "rich-text#text-seg-confiabilidade": {
+    "props": {
+      "title": "Texto - Segurança e Confidencialidade",
+      "text": "<span class='vtex-space'>1. Todas as informações que você insere em nosso portal são armazenadas de modo seguro e utilizadas para estabelecer uma comunicação personalizada de acordo com os seus interesses. Portanto, a viabilidade de alguns serviços só é possível através do compartilhamento de algumas destas informações, o que é feito de maneira responsável e com grandes exigências de sigilo e privacidade.</span>        <span class='vtex-space'> <br>2 .Todas as transações de pagamento são realizadas através da tecnologia SSL (Secure Socket Layer), garantindo que os dados não possam ser acessados por terceiros devido a criptografia proporcionada por esta tecnologia. Esta Política garante que os seus dados jamais serão vendidos</span>",
+      "blockClass": "text-pol-privacidade"
+    }
+  },
+
+  // Envio de e-mails
+  
+  "flex-layout.row#container-envio-emails":{
+    "children":[
+      "rich-text#title-envio-emails",
+      "rich-text#text-envio-emails",
+      "rich-text#text-endereço-casasp"
+    ],
+    "props":{
+      "title": "Text - Envios de e-mails ",
+      "blockClass":"container-seg-confiabilidade"
+    } 
+  },
+
+  "rich-text#title-envio-emails": {
+    "props": {
+      "title": "Titulo - Envio de e-mails",
+      "text": "Envio de e-mails",
+      "blockClass": "subtitle-pol-privacidade"
+    }
+  },
+
+  "rich-text#text-envio-emails": {
+    "props": {
+      "title": "Texto - Envios de Emails",
+      "text": "<span class='vtex-space'> - 1. A Casa São Paulo jamais envia emails solicitando o preenchimento de dados cadastrais ou com arquivos executáveis (com a extensão .exe, .bat, .scr, .com) em anexo.</span> <br> <span class='vtex-space'> - 2. Os nossos emails promocionais e e-mails de acompanhamento de pedido são enviados com o remetente contato@acasasaopaulo.com.br. </span> <br> <span class='vtex-space'> - 3. Caso não queira mais receber os nossos emails promocionais, basta se descadastrar através do link que existe no rodapé de todas as mensagens enviadas ou através de solicitação por email enviada para contato@acasasaopaulo.com.br. Ao optar pelo descadastro, imediatamente você deixará de receber nossos emails promocionais.</span> <br> <span class='vtex-space'> Recomendamos jamais fornecer os seus dados de acesso ao nosso portal (e-mail e senha) a terceiros. Em caso de suspeita ou confirmação de acesso indevido, acesse imediatamente sua área de cliente e altere a senha.</span> <br> <span class='vtex-space'> <span class='vtex-bold'>Cookies:</span> Os cookies são arquivos de dados gravados em seu computador a partir do nosso site, mas que não armazenam dados pessoais. Estes arquivos são utilizados apenas para identificar se você é um visitante constante e melhorar a sua experiência de navegação. Você pode a qualquer momento excluir ou desabilitar os cookies no seu navegador.</span> <br> <span class='vtex-space'> Atualização: A Casa São Paulo reserva-se o direito de alterar esta Política a qualquer momento, sendo que a versão atualizada estará publicada no portal www.acasasaopaulo.com.br . Em caso de dúvidas, reclamações ou sugestões, entre em contato conosco:</span><br>   ",
+      "blockClass": "text-pol-privacidade"
+    }
+  },
+
+  "rich-text#text-endereço-casasp": {
+    "props": {
+      "title": "Texto - endereço A Casa São Paulo",
+      "text": "<span class='vtex-space'> A Casa São Paulo<br>Avenida Atlântica N° 1511<br>Cep: 04768-200<br>Bairro: Socorro<br>Telefone: 11 5524-6849<br>contato@acasasaopaulo.com.br </span>",
+      "blockClass": "text-pol-privacidade"
+    }
+  }
+
+}

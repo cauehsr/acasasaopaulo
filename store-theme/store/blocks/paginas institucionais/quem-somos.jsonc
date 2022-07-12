@@ -1,8 +1,191 @@
 {
   "store.custom#quem-somos": {
       "children": [
-          
+        "flex-layout.row#container-quem-somos" 
       ]
+  },
+
+  /* Quem Somos*/
+
+  "flex-layout.row#container-quem-somos":{
+    "children":[
+      "flex-layout.row#bread-institucional",
+      "flex-layout.row#container-nossa-historia",
+      "flex-layout.row#container-missao-visao-valores",
+      "flex-layout.row#container-final-quem-somos"
+      
+    ],
+    "props":{
+      "blockClass":"container-quem-somos"
+    } 
+  },
+
+  "flex-layout.row#container-nossa-historia":{
+    "children":[
+      "flex-layout.row#container-nossa-historia-text",
+      "flex-layout.row#box-banner-missao"
+    ],
+    "props":{
+      "blockClass":"container-nossa-historia"
+    } 
+  },
+
+  "flex-layout.row#container-nossa-historia-text":{
+    "children":[
+      "rich-text#title-nossa-historia",
+      "rich-text#text-nossa-historia"
+    ],
+    "props":{
+      "blockClass":"container-nossa-historia-text"
+    } 
+  },
+ 
+  "rich-text#title-nossa-historia": {
+    "props": {
+      "title": "Titulo - Nossa Historia",
+      "text": "Nossa Historia",
+      "blockClass": "title-nossa-historia"
+    }
+  },
+  
+  "rich-text#text-nossa-historia": {
+    "props": {
+      "title": "Text - Nossa Historia",
+      "text": "A CASA SÃO PAULO está localizada na cidade de São Paulo e como loja de fábrica oferece a seus clientes o que há de melhor e mais moderno no que se refere a bombas de água. Esse know-how acabou se estendendo a outras linhas de produtos também essenciais aos nossos clientes. Desde o princípio, nossa preocupação foi oferecer os melhores produtos com os melhores preços. Tudo isso aliado ao excelente atendimento que é nossa marca registrada.",
+      "blockClass": "text-nossa-historia"
+    }
+  },
+
+  "flex-layout.row#box-banner-missao":{
+    "children":[
+      "image#banner-missao-institucional"
+    ],
+    "props":{
+      "blockClass":"box-banner-missao"
+    }
+  },
+
+  "image#banner-missao-institucional":{
+    "props": {
+
+      "title": " image - Banner INstitucional",
+      "src": "assets/images/banner-missao-institucional.png",
+      "width":"522px",
+      "blockClass": "banner-missao-institucional"
+    }
+  },
+
+  "flex-layout.row#container-missao-visao-valores":{
+    "children":[
+      "flex-layout.row#container-missao",
+      "flex-layout.row#container-visao",
+      "flex-layout.row#container-valores"
+    ],
+    "props":{
+      "blockClass":"container-missao-visao-valores"
+    }
+  },
+
+  //Missão
+
+  "flex-layout.row#container-missao":{
+    "children":[
+      "image#img-container-missao",
+      "rich-text#text-missao"
+      ],
+    "props":{
+      "blockClass":"container-missao"
+    }
+  },
+
+  "image#img-container-missao":{
+    "props": {
+      "title": " image - missão",
+      "src": "assets/images/img-missao.png",
+      "blockClass": "img-container-missao"
+    }
+  },
+
+  "rich-text#text-missao": {
+    "props": {
+      "title": "texto - missao",
+      "text": "Garantir a melhor experiência de compra digital a todos os nossos clientes.",
+      "blockClass": "text-missao"
+    }
+  },
+  
+   // Visão  
+  
+  "flex-layout.row#container-visao":{
+    "children":[
+      "image#img-container-visao",
+      "rich-text#text-visao"
+      ],
+    "props":{
+      "blockClass":"container-visao"
+    }
+  },
+
+  "image#img-container-visao":{
+    "props": {
+      "title": " image - missão",
+      "src": "assets/images/img-visao.png",
+      "blockClass": "img-container-visao"
+    }
+  },
+
+  "rich-text#text-visao": {
+    "props": {
+      "title": "texto - visao",
+      "text": "Possuir uma equipe talentosa e renomada, que crie condições de crescimento dentro das nossas operações, processos e produtos.",
+      "blockClass": "text-visao"
+    }
+  },
+
+  //Valores
+
+  "flex-layout.row#container-valores":{
+    "children":[
+      "image#img-container-valores",
+      "rich-text#text-valores"
+      ],
+    "props":{
+      "blockClass":"container-valores"
+    }
+  },
+
+  "image#img-container-valores":{
+    "props": {
+      "title": " image - missão",
+      "src": "assets/images/img-valores.png",
+      "blockClass": "img-container-valores"
+    }
+  },
+
+  "rich-text#text-valores": {
+    "props": {
+      "title": "texto - valores",
+      "text": "•Humildade<br>•Disciplina<br>•Determinação<br>•Equilíbrio Emocional",
+      "blockClass": "text-valores"
+    }
+  },
+
+  "flex-layout.row#container-final-quem-somos":{
+    "children":[
+      "rich-text#text-final-quem-somos"
+  ],
+  "props":{
+    "title": "Texto - Final Quem Somos",
+    "blockClass":"container-final-quem-somos"
+    }
+  },
+
+  "rich-text#text-final-quem-somos":{
+    "props":{
+      "title": "Texto - Final ",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada tempor purus at pellentesque ut tincidunt. Viverra volutpat nunc libero, volutpat aliquam sit tortor interdum. Faucibus adipiscing amet tincidunt semper elementum tincidunt in. Risus, vitae senectus aliquet  aliquam et ipsum. Nulla orci dictumst integer elementum arcu erat. Amet tincidunt amet semper habitant suspendisse leo hendrerit platea. Etiam id velit dignissim mollis eget consequat neque. Consequat mollis proin at nec ipsum odio pulvinar in proin. Nibh pellentesque nullam  dui tellus quam pulvinar. Id vitae amet, lorem hendrerit proin aliquam id. Pretium tempus, non amet amet, felis, sed scelerisque pretium,  gravida. Potenti porta amet nunc, rhoncus. Tincidunt odio mattis ridiculus ultricies convallis ultrices sagittis rutrum in.      Feugiat gravida nec malesuada vulputate odio neque iaculis. Semper arcu neque, in tincidunt sit. Tortor nibh velit tellus in leo. Ultrices fringilla non tincidunt nunc. Pretium sit diam, odio faucibus praesent turpis maecenas turpis nisl.Arcu sagittis pharetra, vitae nisi tristique phasellus. Sed platea semper senectus volutpat potenti purus. Egestas massa sapien pretium cursus ut lectus.",
+      "blockClass":"text-final"
+    }
   }
 
 }

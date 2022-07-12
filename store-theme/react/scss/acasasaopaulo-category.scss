@@ -30,6 +30,28 @@
     }
 }
 
+.branchDepartment::-webkit-scrollbar {
+    height: 12px;
+}
+
+.branchDepartment::-webkit-scrollbar-track {
+    background: #a9a9a947;
+    width: 4px;
+}
+
+.branchDepartment::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
+    width: 3px;
+}
+
+.vtex-search-result-3-x-galleryItem .vtex-product-summary-2-x-imageNormal {
+    max-height: 100px !important;
+}
+
+.vtex-search-result-3-x-galleryItem .vtex-store-components-3-x-discountContainer {
+    width: 100%;
+}
+
 // PÁGINA DE DEPARTAMENTO/CATEGORIA/BUSCA/MARCA MOBILE
 @media (max-width: 1024px) {
     //filtro aberto
@@ -463,6 +485,7 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    text-decoration: none;
                 }
                 &--img{
                     margin-bottom: 12px;

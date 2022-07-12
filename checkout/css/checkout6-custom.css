@@ -6,6 +6,10 @@
   font-family: 'Red Hat Display';
 }
 
+.payment-confirmation-wrap{
+    display: block !important;
+}
+
 .e-header-desktop {
   display: none !important;
 }
@@ -422,13 +426,13 @@ footer {
 }
 
 .quantity .icon-plus-sign:before {
-    content: "";
+    content: "+";
     background: url('/arquivos/skull-icon-checkout-table-plus.png') no-repeat;
     background-position: center;
     background-size: 14px;
     padding: 12px;
-    color: #00A0C6;
-    font-weight: 700;
+    color: #CACACA;
+    font-weight: bold;
     font-size: 16px;
     position: relative;
     top: 0px;
@@ -1108,7 +1112,6 @@ body .cart-active .table .srp-summary-result {
 
 .btn-submit-wrapper button:hover {
     background: #00A0C6;
-    color: #0B0B0B;
 
 }
 
@@ -1862,5 +1865,26 @@ body .cart-active .table .srp-summary-result {
         left: 0;
         z-index: 999;
         width: 100%;
+    }
+
+    
+    #payments-title::before {
+        left: 0;
+    }
+
+    .compra-segura {
+        display: none;
+    }
+
+    .compra-back {
+        display: none;
+    }
+
+     header.w-new {
+    justify-content: center;
+    }
+
+    .compra-logo img {
+     width: 200px;
     }
 }
