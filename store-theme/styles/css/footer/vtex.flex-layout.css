@@ -207,7 +207,10 @@
   text-transform: uppercase;
   color: #3a3a3a;
 }
-
+:global(.vtex-rich-text-0-x-container--title-seguranca){
+  text-align: center;
+  display: block;
+}
 :global(.vtex-flex-layout-0-x-flexColChild--footer-columns-two)
   :global(.vtex-store-link-0-x-link) {
   font-family: "Red Hat Display";

@@ -8,7 +8,7 @@
     },
 
     "menu-department": {
-        "component": "MenuDepartment",
+        "component": "MenuDepartments",
         "composition": "children"
     },
 
