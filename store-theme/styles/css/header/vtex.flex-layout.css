@@ -503,7 +503,7 @@
 :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf),
 :global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
 :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf){
-  display: none;
+  display: block;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--container-amazing-shelf )
