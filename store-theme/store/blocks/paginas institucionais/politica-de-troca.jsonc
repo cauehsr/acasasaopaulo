@@ -1,27 +1,13 @@
 {
+  // PAGINA ESTA ERRADA FELIPE CORRIGIR.
   "store.custom#politica-de-troca": {
       "children": [
           
       ]
   },
   
-  "store.custom#politica-de-entrega": {
-    "children": [
-      "flex-layout.row#container-principal-entrega"
-    ]
-  },
 
   /* Politica de Entrega*/
-
-  "flex-layout.row#container-principal-entrega":{
-    "children":[
-      "flex-layout.col#container-institucional-menu",
-      "flex-layout.row#container-politica-de-troca"
-    ],
-    "props":{
-      "blockClass":"container-principal-troca"
-    }
-  },
 
   "flex-layout.col#container-institucional-menu":{
     "children":[
