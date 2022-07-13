@@ -167,27 +167,27 @@
   }
 }
 
-:global(.vtex-store-components-3-x-container--email-input ){
+:global(.vtex-store-components-3-x-container--email-input) {
   position: relative;
   left: -7em;
 }
 
 :global(.vtex-store-components-3-x-newsletter)
-:global(.vtex-store-components-3-x-newsletter--name-input){
+  :global(.vtex-store-components-3-x-newsletter--name-input) {
   margin-bottom: 80px;
 }
 
-:global(.vtex-store-components-3-x-inputGroup--email-input ){
+:global(.vtex-store-components-3-x-inputGroup--email-input) {
   width: 36.89em;
 }
 
-:global(.vtex-store-components-3-x-newsletter--email-input ){
+:global(.vtex-store-components-3-x-newsletter--email-input) {
   display: flex;
 }
 
 /* Container Link Rapido */
 
-:global(.vtex-flex-layout-0-x-flexRow--news-bottom ){
+:global(.vtex-flex-layout-0-x-flexRow--news-bottom) {
   width: 100%;
   max-width: 1200px;
 }
@@ -207,7 +207,7 @@
   text-transform: uppercase;
   color: #3a3a3a;
 }
-:global(.vtex-rich-text-0-x-container--title-seguranca){
+:global(.vtex-rich-text-0-x-container--title-seguranca) {
   text-align: center;
   display: block;
 }
@@ -494,9 +494,9 @@
   width: 100% !important;
 }
 @media (min-width: 1023px) {
-:global(.vtex-flex-layout-0-x-flexRowContent--container-banner-logos) {
-  width: 80% !important;
-}
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-banner-logos) {
+    width: 80% !important;
+  }
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--container-banner-logos) {
   display: flex;
@@ -522,6 +522,16 @@
   flex-direction: column;
   gap: 10px;
 }
+@media (min-width: 1023px) {
+  :global(.vtex-flex-layout-0-x-flexCol--footer-columns-three)
+    :global(.vtex-flex-layout-0-x-flexRowContent) {
+    flex-direction: column;
+    gap: 10px;
+  }
+  :global(.vtex-store-components-3-x-imageElement--logo-letsencrypt){
+    width: 72px;
+  }
+}
 
 @media (min-width: 1023px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--container-formas-pagamento)
@@ -543,23 +553,23 @@
   margin: 0 auto;
 }
 @media (max-width: 1023px) {
-  :global(.vtex-flex-layout-0-x-flexCol--footer-columns-three){
+  :global(.vtex-flex-layout-0-x-flexCol--footer-columns-three) {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  :global(.vtex-flex-layout-0-x-flexCol--footer-columns-two){
+  :global(.vtex-flex-layout-0-x-flexCol--footer-columns-two) {
     margin-bottom: 16px;
   }
-  :global(.vtex-flex-layout-0-x-flexRow--container-formas-pagamento){
+  :global(.vtex-flex-layout-0-x-flexRow--container-formas-pagamento) {
     margin-bottom: 40px;
     padding-top: 16px;
-    border-top: 1px solid #C9C9C9;;
+    border-top: 1px solid #c9c9c9;
   }
-  .flexRow--container-seguranca{
+  .flexRow--container-seguranca {
     padding-bottom: 26px;
   }
-  :global(.vtex-rich-text-0-x-wrapper--title-col-formaspagamento){
+  :global(.vtex-rich-text-0-x-wrapper--title-col-formaspagamento) {
     margin-bottom: 16px;
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--container-logo-copyright) {
