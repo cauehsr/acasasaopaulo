@@ -518,10 +518,7 @@
     width: 100%!important;
     padding-left: 14px;
   }
-  :global(.vtex-flex-layout-0-x-flexRow--container-vitrine-maisvendidos)
-  :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf) {
-    display: none;
-  }
+  
   :global(.vtex-product-summary-2-x-container--summary-shelf)
   :global(.vtex-product-summary-2-x-productBrand) {
     font-size: 12px!important;
@@ -537,10 +534,7 @@
   :global(.vtex-rich-text-0-x-paragraph--text-maisvendidos) {
     font-size: 21px;
   }
-  :global(.vtex-flex-layout-0-x-flexRow--container-vitrine-maisvendidos)
-  :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf) {
-    display: none;
-  }
+ 
   :global(.vtex-flex-layout-0-x-flexRow--container-vitrine-maisvendidos)
   :global(.vtex-slider-layout-0-x-slide--shelf) {
     margin-right: 13px;
@@ -636,7 +630,7 @@
     width: 80px;
     height: 80px;
     right: 0;
-    bottom: 168px;
+    bottom: 68px;
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--container-banners-duplo) {
     padding: 0px 10px;

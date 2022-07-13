@@ -3,3 +3,9 @@
 @import "./css/acasasaopaulo-home.css";
 @import "./css/acasasaopaulo-menu-mobile.css";
 @import "./css/acasasaopaulo-product.css";
+@media (min-width: 1024px) {
+  .vtex-flex-layout-0-x-flexRowContent--container-shelf-fouritens
+    .vtex-slider-layout-0-x-sliderLayoutContainer--shelf {
+    min-width: 1200px;
+  }
+}

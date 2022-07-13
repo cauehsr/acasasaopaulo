@@ -637,7 +637,7 @@
 }
 
 .flex.flex-grow-1.w-100.flex-column {
-  background: #fff;
+  background: #F2F2F2;
 }
 
 .vtex-institucional-form_container form {
@@ -683,6 +683,10 @@
 }
 
 @media (max-width: 768px) {
+  .vtex-flex-layout-0-x-flexRow--container-vitrine-maisvendidos
+.vtex-slider-layout-0-x-sliderLeftArrow--shelf {
+  display: none;
+}
   .vtex-flex-layout-0-x-flexRow--news-bottom .vtex-store-components-3-x-container {
     width: 100% !important;
   }

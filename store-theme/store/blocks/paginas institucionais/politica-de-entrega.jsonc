@@ -17,15 +17,6 @@
     }
   },
 
-  "flex-layout.col#container-institucional-menu":{
-    "children":[
-      "institucionalMenu"
-    ],
-    "props":{
-      "width": "20%",
-      "blockClass":"container-institucional-menu"
-    }
-  },
    
   "flex-layout.row#container-politica-de-entrega":{
     "children":[

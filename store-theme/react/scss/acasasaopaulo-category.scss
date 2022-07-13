@@ -449,39 +449,61 @@
             }
         }
     }
+
+    .vtex-search-result-3-x-filter__container{
+        display: none;
+    }
+    .vtex-search-result-3-x-filter__container--category-1{
+        display: block;
+    }
+
+
+
+
     .branchDepartment{
         padding: 16px 0;
-        display: flex!important;
+        display: block!important;
         max-width: 1240px;
         width: 100%;
         margin: 0 auto;
-        overflow-x: scroll;
+
+        @media (max-width: 1024px) {
+            overflow-x: scroll;
+        }
         
 
         &__items{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             padding: 0 20px;
 
+            .slick-arrow{
+                &::before{
+                    color: #1F6591;
+                    opacity: 1;
+                }
+            }
+
             @media (max-width: 1024px) {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
                 padding: 0 12px;
             }
 
             &-item{
-                width: 120px!important;
                 list-style: none;
                 padding: unset;
                 margin: unset;
-                margin-right: 22px;
-
+                // margin: 0 11px;
+                // margin-right: 22px;
+                
                 @media (max-width: 1024px) {
                     // &:first-of-type{
-                    //     margin-left: 12px;
-                    // }
-                    margin-right: 8px;
-                }
-                &--link{
+                        //     margin-left: 12px;
+                        // }
+                        margin-right: 8px;
+                    }
+                    &--link{
+                    width: 142px!important;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
