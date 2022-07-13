@@ -2,7 +2,9 @@
     "global-css": {
         "component": "GlobalCSS"
     },
-
+    "headtag": {
+        "component": "HeadTagImport"
+    },
     "branch-department": {
         "component": "BranchDepartment"
     },

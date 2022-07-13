@@ -14,6 +14,7 @@
     "header-layout.desktop": {
         "children": [
             "global-css",
+            "headtag",
             "sticky-layout#desktop"
         ]
     },
@@ -27,6 +28,7 @@
     "header-layout.mobile": {
         "children": [
             "sticky-layout#mobile",
+            "headtag",
             "global-css"
         ]
     },

@@ -43,7 +43,7 @@
   "link#news-whatsapp": {
     "title": "link whatsapp",
     "props": {
-      "href": "/",
+      "href": "https://api.whatsapp.com/send/?phone=551155246849&amp;text&amp;type=phone_number&amp;app_absent=0",
       "label": "NOSSO WHATSAPP",
       "blockClass": "link-whatsapp-newsletter"
     }
