@@ -522,12 +522,7 @@
   flex-direction: column;
   gap: 10px;
 }
-@media (min-width: 1023px) {
-  :global(.vtex-flex-layout-0-x-flexCol--footer-columns-three)
-    :global(.vtex-flex-layout-0-x-flexRowContent) {
-    flex-direction: column;
-    gap: 10px;
-  }
+@media (max-width: 1023px) {
   :global(.vtex-store-components-3-x-imageElement--logo-letsencrypt){
     width: 72px;
   }
